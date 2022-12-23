@@ -1,28 +1,45 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 body {
-    background-color: blue($color: #000000);
+ font-family: Raleway, Arial, Helvetica, sans-serif; 
+  max-width: 1400px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+
+@media screen and (max-width: 767px) {
 .backGrey{
   background-color: rgb(172, 162, 162);
 }
 
-
+.backGreyLight{
+    background-color: rgba(134, 132, 132, 0.61);
+  }
+.subTitle {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .Title {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
 
 .filter {
   display: flex;
 border: 2px solid 	#D3D3D3;
-margin-top: 35px;
-margin-bottom: 35px;
 border-radius: 25px;
-width: auto;
+width: 65%;
 height: 50px;
 align-items: center;
-color: white;
 background-color: purple;
 margin-left:20px;
 padding-left:27px;
-padding-right:27px;
 }
 
 .filterFonctionnement{
@@ -31,11 +48,10 @@ border: 2px solid 	#D3D3D3;
 margin-top: 35px;
 margin-bottom: 35px;
 border-radius: 25px;
-width: auto;
+font-weight:bold;
+width: 65%;
 height: 50px;
 align-items: center;
-color: white;
-background-color: rgb(196, 189, 189);
 margin-left:20px;
 padding-left:27px;
 padding-right:27px
@@ -45,11 +61,14 @@ padding-right:27px
 }
 
 .restaurantsCube {
-    width: 9%;
     height: 9px;
-    background-color: rgba(250, 245, 245, 0.877);
-    padding:8%;
+    padding:34%;
+    margin-bottom:12px;
     border-radius: 10px;
+}
+
+.backGreylight{
+    background-color: grey;
 }
 
 .restaurantsImage{
@@ -60,10 +79,12 @@ padding-right:27px
 }
 
 footer{
+    margin-top:133px;
     background-color: #6e6565ce;
 
 }
 
 .subTitleFooter {
     color:white;
+}
 }
