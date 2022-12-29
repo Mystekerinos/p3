@@ -14,8 +14,70 @@ body {
   height: 29px;
 }
 
+.Title2 {
+  margin-left: 330px;
+}
+
+.ImageTitle {
+  height: 300px;
+  width: 250px;
+}
+
+.headTitle {
+  display: flex;
+}
+
 .chartLogo {
   font-size: 18px;
+}
+
+.subTitlePage {
+  margin-top: 24px;
+  text-decoration: underline;
+  text-decoration-color: aquamarine;
+}
+
+.filterFonctionnementSubTitle {
+  display: flex;
+}
+
+.filterFonctionnementTitle {
+  font-weight: bold;
+}
+
+.filterTitle {
+  border: 2px solid #D3D3D3;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 25px;
+  font-size: 12px;
+  width: 65%;
+  height: 50px;
+  margin-left: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.entreePart {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.platsPart {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dessertsPart {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin-left: 20px;
 }
 
 .center {
@@ -160,10 +222,10 @@ nav {
 }
 
 .logo {
-  margin-bottom: 7px;
-  margin-left: 35px;
-  width: 61.09px;
-  height: 20px;
+  margin-bottom: 27px;
+  margin-left: 635px;
+  width: 120px;
+  height: 120px;
 }
 
 /*HEADER*/
@@ -251,6 +313,16 @@ nav {
 .filter {
   display: flex;
   justify-content: space-between;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: 2px solid #D3D3D3;
+  border-radius: 25px;
+  width: 9%;
+  height: 50px;
+  align-items: center;
+  background-color: purple;
+  margin-left: 620px;
+  padding-left: 27px;
 }
 
 .filterWord {
@@ -674,13 +746,13 @@ nav {
 /* footer */
 footer {
   display: flex;
-  margin-left: 24px;
-  margin-right: 24px;
   background-color: #f2f2f2;
 }
 
 .footBlocSize {
   height: 150px;
+  margin-top: 74px;
+  margin-left: 250px;
 }
 
 .ourHebergement {
@@ -705,7 +777,7 @@ footer {
 }
 
 .aboutMarge {
-  width: 350px;
+  width: 620px;
 }
 
 .footBlocMarge2 {
@@ -764,8 +836,10 @@ footer {
   font-size: 16px;
 }
 
-em {
+.subTitleFooterOhmyfood {
+  font-size: 23px;
   font-weight: bold;
+  margin-left: 185px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -1249,65 +1323,30 @@ em {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .about {
+  .propose {
     margin-top: 34px;
     font-size: 19px;
     margin-left: 70px;
   }
-  .aboutMarge {
+  .proposeMarge {
     width: 250px;
   }
-  .fonctionnementLinkD {
+  .mentionsLinkD {
     width: 200px;
     font-size: 14px;
     height: 0px;
     margin-left: 70px;
   }
-  .fooctionnementLinkD2 {
-    margin-top: 30px;
-    font-size: 14px;
-    margin-left: 70px;
-  }
-  .fooctionnementLinkD3 {
-    margin-top: 10px;
-    font-size: 14px;
-    width: 250px;
-    margin-left: 70px;
-  }
-  .ourHebergement {
-    margin-left: 35px;
-    margin-top: 34px;
-    font-size: 19px;
-  }
-  .hebergementLinkD {
-    width: 200px;
-    font-size: 17px;
-    height: 0px;
-    margin-left: 35px;
-  }
-  .hebergementLinkD2 {
-    margin-left: 35px;
-    margin-top: 30px;
-    font-size: 17px;
-  }
-  .assistanceMarge {
+  .devenirMarge {
     margin-left: 17px;
     margin-top: 34px;
     font-size: 19px;
   }
-  .assistanceLinkD {
+  .devenirLinkD {
     width: 200px;
     font-size: 17px;
     height: 0px;
     margin-left: 17px;
-  }
-  .assistanceLinkD2 {
-    margin-left: 17px;
-    margin-top: 30px;
-    font-size: 17px;
-  }
-  em {
-    font-weight: bold;
   }
 }
 @media screen and (max-width: 767px) {
