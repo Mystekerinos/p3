@@ -41,6 +41,7 @@ body {
 
 .filterFonctionnementTitle{
   font-weight: bold;
+  margin-top:13px;
 }
 
 
@@ -140,8 +141,13 @@ padding-right:27px
   justify-content: space-between;
 }
 
-.dNone {
+.dNone1 {
   text-decoration: none;
+  margin-left:14px;
+}
+.dNone2 {
+  text-decoration: none;
+  margin-left:14px;
 }
 
 .bNone {
@@ -328,7 +334,7 @@ nav{
   height: 50px;
   align-items: center;
   background-color: purple;
-  margin-left:620px;
+  margin-left:590px;
   padding-left:27px;
 
 }
@@ -779,13 +785,13 @@ font-size:16px;
 
 footer {
   display:flex;
+  flex-direction: column;
   background-color: #f2f2f2;
 }
 
 .footBlocSize {
-  height: 150px;
-  margin-top:74px;
-  margin-left:250px;
+  margin-top:0px;
+  margin-left:590px;
 }
 
 .ourHebergement{
@@ -871,7 +877,7 @@ footer {
 .subTitleFooterOhmyfood{
   font-size:23px;
   font-weight: bold;
-  margin-left:185px;
+  margin-left:604px;
 }
 
 
@@ -893,14 +899,14 @@ footer {
 }
 
   /*Header */
-  .logo{
-    margin-top:15px;
-    margin-left:2px;
-  }
+ 
     .icon{
        height:50px;
        width:80px;
        border-radius: 10px 0 0 10px;
+    }
+    .Title2{
+      margin-left:130px;
     }
 
     
@@ -919,11 +925,13 @@ footer {
 
   .filter {
     display: flex;
+    margin-left:260px;
+    width:19%;
    
   }
 
   .logo{
-    margin-left:0px;
+    margin-left:290px;
   }
   
 .filterItem{
@@ -1322,7 +1330,19 @@ footer {
     
   }
 
- 
+  .filterTitle{
+    width:100%;
+  }
+
+  .filterFonctionnementTitle{
+    font-size:10px;
+    margin-top:10px;
+  }
+
+
+  .filterFonctionnementSubTitle{
+    font-size:8px;
+  }
 
   .populairesCubeChambresHotesAuCoeurDeLeau{
     width:30%;
@@ -1444,21 +1464,27 @@ footer {
     margin-right:0px;
   }
 
+  
+  .subTitleFooterOhmyfood{
+ margin-left:0px;
+  }
+
   .propose{
-    margin-top: 34px;
-    font-size:19px;
-    margin-left: 70px;
+    font-size:14px;
+    margin-left:70px;
   }
   
   .proposeMarge{
-    width:250px;
+    width:300px;
   }
-
+  .footBlocSize{
+    margin-left:0px;
+  }
   .mentionsLinkD{
     width:200px;
     font-size:14px;
     height:0px;
-    margin-left: 70px;
+    margin-left: 85px;
   }
 
 
@@ -1466,15 +1492,14 @@ footer {
 
   .devenirMarge{
     margin-left:17px;
-    margin-top:34px;
-    font-size:19px;
+    font-size:14px;
   }
 
   .devenirLinkD{
     width:200px;
-    font-size:17px;
+    font-size:14px;
     height:0px;
-    margin-left:17px;
+    margin-left:35px;
   }
 
   
@@ -1484,6 +1509,39 @@ footer {
 
 @media screen and (max-width: 767px) {
 
+
+  .icon{
+    height: 50px;
+    width: 95%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .titleAccueil{
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .subTitleAccueil{
+    font-size: 15px;
+    text-align: center;
+    font-weight: inherit;
+  }
+  .headTitle{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 27px;
+    margin-left: 0px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .Title2{
+    margin-left:0px;
+    font-size: 20px;
+  }
+
 .ImageTitle{
   height:233px;
   width:233px;
@@ -1492,6 +1550,22 @@ footer {
 .price{
   margin-left: 30px;
 }
+.entreePart{
+  margin-top: 10px;
+  display:flex;
+ flex-direction: column;
+}
+
+.platsPart{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.dessertsPart{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+}
 
 .subTitlePage{
   font-size: 12px;
@@ -1499,6 +1573,9 @@ footer {
   text-decoration-color: aquamarine;
 }
 .backGrey{
+  background-color: rgb(172, 162, 162);
+}
+.backGreyAccueil{
   background-color: rgb(172, 162, 162);
 }
 
@@ -1520,7 +1597,7 @@ footer {
   display: flex;
 border: 2px solid 	#D3D3D3;
 border-radius: 25px;
-width: 65%;
+width: 75%;
 height: 50px;
 align-items: center;
 background-color: purple;
@@ -1534,21 +1611,9 @@ font-weight:normal;
 font-size: 10px;
 }
 
-.filterFonctionnementTitle{
-border: 2px solid 	#D3D3D3;
-margin-top: 35px;
-margin-bottom: 35px;
-border-radius: 25px;
-font-weight:bold;
-font-size:12px;
-width: 65%;
-height: 50px;
-margin-left:20px;
-padding-left:27px;
-padding-right:27px
-}
 
-.filterFonctionnement{
+
+.filterFonctionnementAccueil{
       display: flex;
 border: 2px solid 	#D3D3D3;
 margin-top: 35px;
@@ -1560,18 +1625,14 @@ height: 50px;
 align-items: center;
 margin-left:20px;
 padding-left:27px;
-padding-right:27px
+padding-right:27px;
+font-size: 13px;
 }
 #restaurants{
     margin-bottom:230px;
 }
 
-.restaurantsCube {
-    height: 9px;
-    padding:34%;
-    margin-bottom:12px;
-    border-radius: 10px;
-}
+
 
 .backGreylight{
     background-color: grey;
@@ -1585,9 +1646,22 @@ padding-right:27px
 }
 
 footer{
+  display: flex;
+  flex-direction: column;
     margin-top:133px;
     background-color: #6e6565ce;
 
+}
+
+.footBlocSize{
+  font-size: 14px;
+  height:30px;
+  margin-top:0px;
+  margin-left:0px;
+}
+
+.subTitleFooterOhmyfood{
+  margin-left:0px;
 }
 
 .subTitleFooter {
