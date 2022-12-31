@@ -86,6 +86,14 @@ padding-right:27px
   align-items: center;
 }
 
+#restaurants{
+  display: flex;
+  justify-content: space-around;
+background-color: #f2f2f2;
+margin-bottom:5%;
+padding:5%;
+
+}
 
 .writeSize{
   font-weight:900;
@@ -272,8 +280,7 @@ nav{
 }
 
 .icon {
-  height: 50px;
-  width:49px;
+  
   border-radius: 10px 0 0 10px;
 }
 
@@ -387,7 +394,16 @@ padding-right:27px;
   background-color: #deebff;
 }
 
+.restaurantsCubeAlaFrancaise{
+  width:11%
+}
+.restaurantsCube{
+  width: 20%;
+}
 
+.restaurantsImage{
+  width:100%;
+}
 
 
 /* icon */
@@ -880,6 +896,10 @@ footer {
   margin-left:604px;
 }
 
+.subTitleFooter{
+    margin-left:534px;
+    padding:3px;
+}
 
 
 
@@ -1537,6 +1557,12 @@ footer {
     height: 120px;
   }
 
+  #restaurants{
+    display:inherit;
+    background-color: inherit;
+
+  }
+
   .Title2{
     margin-left:0px;
     font-size: 20px;
@@ -1593,6 +1619,18 @@ footer {
     align-items:center;
   }
 
+  .restaurantsCubeAlaFrancaise{
+    width:94%;
+    height:275px;
+    margin-bottom:0;
+  }
+
+  .restaurantsCube{
+  width:94%;
+  height:275px;
+  margin-bottom:0;
+}
+
 .filter {
   display: flex;
 border: 2px solid 	#D3D3D3;
@@ -1628,8 +1666,9 @@ padding-left:27px;
 padding-right:27px;
 font-size: 13px;
 }
-#restaurants{
+#restaurants {
     margin-bottom:230px;
+    padding:0;
 }
 
 
@@ -1666,5 +1705,6 @@ footer{
 
 .subTitleFooter {
     color:white;
+    margin-left:0;
 }
 }

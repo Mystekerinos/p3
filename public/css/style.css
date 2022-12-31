@@ -87,6 +87,14 @@ body {
   align-items: center;
 }
 
+#restaurants {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+
 .writeSize {
   font-weight: 900;
   font-size: 18px;
@@ -272,8 +280,6 @@ nav {
 }
 
 .icon {
-  height: 50px;
-  width: 49px;
   border-radius: 10px 0 0 10px;
 }
 
@@ -374,6 +380,18 @@ nav {
 .iconFilterText:hover > .filterItem {
   color: #0065fc;
   background-color: #deebff;
+}
+
+.restaurantsCubeAlaFrancaise {
+  width: 11%;
+}
+
+.restaurantsCube {
+  width: 20%;
+}
+
+.restaurantsImage {
+  width: 100%;
 }
 
 /* icon */
@@ -847,6 +865,11 @@ footer {
   font-size: 23px;
   font-weight: bold;
   margin-left: 604px;
+}
+
+.subTitleFooter {
+  margin-left: 534px;
+  padding: 3px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -1396,6 +1419,10 @@ footer {
     width: 120px;
     height: 120px;
   }
+  #restaurants {
+    display: inherit;
+    background-color: inherit;
+  }
   .Title2 {
     margin-left: 0px;
     font-size: 20px;
@@ -1446,6 +1473,16 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .restaurantsCubeAlaFrancaise {
+    width: 94%;
+    height: 275px;
+    margin-bottom: 0;
+  }
+  .restaurantsCube {
+    width: 94%;
+    height: 275px;
+    margin-bottom: 0;
+  }
   .filter {
     display: flex;
     border: 2px solid #D3D3D3;
@@ -1479,6 +1516,7 @@ footer {
   }
   #restaurants {
     margin-bottom: 230px;
+    padding: 0;
   }
   .backGreylight {
     background-color: grey;
@@ -1506,6 +1544,7 @@ footer {
   }
   .subTitleFooter {
     color: white;
+    margin-left: 0;
   }
 }
 
