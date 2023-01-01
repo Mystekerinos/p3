@@ -9,9 +9,15 @@ body {
   margin-right: auto;
 }
 
+/* Head */
+
 .titleBooki{
   width:61px;
   height:29px;
+}
+
+.BackgroundColorHead{
+  background-color: #eae6e6;
 }
 
 .Title2{
@@ -30,6 +36,16 @@ body {
   font-size:18px;
 }
 
+.subTitle {
+    display: flex;
+    align-items:center;
+  }
+
+.subTitle2 {
+    margin-left:12px;
+    
+  }
+
 .subTitlePage{
   margin-top: 24px;
   text-decoration: underline;
@@ -44,6 +60,25 @@ body {
   margin-top:13px;
 }
 
+.filterFonctionnementAccueil{
+  display: flex;
+border: 2px solid 	#D3D3D3;
+margin-top: 35px;
+margin-bottom: 35px;
+border-radius: 25px;
+font-weight:bold;
+width: 85%;
+height: 50px;
+align-items: center;
+padding-left:27px;
+padding-right:27px;
+font-size: 13px;
+}
+
+#fonctionnement{
+  display:flex;
+  justify-content: space-around;
+}
 
   .filterTitle{
     border: 2px solid 	#D3D3D3;
@@ -238,8 +273,6 @@ nav{
 .logo {
   margin-bottom: 27px;
   margin-left: 635px;
-  width: 120px;
-  height: 120px;
 }
 
 /*HEADER*/
@@ -280,8 +313,9 @@ nav{
 }
 
 .icon {
-  
+  background-color: #b0a8a8;
   border-radius: 10px 0 0 10px;
+  padding-left:10px;
 }
 
 
@@ -337,10 +371,11 @@ nav{
   margin-bottom:23px;
   border: 2px solid 	#D3D3D3;
   border-radius: 25px;
-  width: 9%;
+  width: 17%;
   height: 50px;
   align-items: center;
-  background-color: purple;
+  background-color: #d111d1;
+  color:white;
   margin-left:590px;
   padding-left:27px;
 
@@ -443,38 +478,7 @@ padding-right:27px;
     
   }
 
-  .titleCardHebergementHotelDeLaMer{
-    font-weight:bold;
-    padding-top:13px;
-    font-size: 16px;
-    
-  }
-  .subtitleCardHebergementHotelDeLaMer {
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
-.titleCardHebergementAubergeLePanier{
-  font-weight: bold;
-  padding-top: 13px;
-  font-size: 16px;
-}
-.subtitleCardHebergementAubergeLePanier{
-  font-size: 14px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.titleCardHebergementHotelChezAmina{
-  font-weight: bold;
-  padding-top: 13px;
-  font-size: 16px;
-}
-.subtitleCardHebergementHotelChezAmina{
-  font-size: 14px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 
   .card1{
     padding-bottom:1px;
@@ -489,12 +493,7 @@ padding-right:27px;
     flex-wrap:nowrap;
   }
 
-.subtitleCardHebergementHotelDuPort{
-  padding-top:7px;
-  padding-bottom: 7px;
-      font-size:14px;
-      margin-right:50px;
-    }
+
 .titleCardHebergement{
 padding-top:20px;
 
@@ -508,15 +507,6 @@ font-size:16px;
   padding-bottom: 7px;
 }
 
-.popularySize {
-
-  flex: 1;
-  height: 626px;
-  width:40%;
-  margin-left: 20px;
-  border-radius: 10px;
-  min-height: auto;
-}
 
 .starsHebergement{
   display: flex;
@@ -540,41 +530,9 @@ font-size:16px;
  
 }
 
-.hebergementsCubeAubergeDeLaCanebiereCube{
-  width: 29%;
-  height: 199px;
-  background-color: white;
-  padding: 1%;
-  border-radius: 20px;
-  font-size:16px;
- 
-}
-.hebergementsCubeAubergeLePanier{
-  width: 29%;;
-  height: 199px;
-  background-color: white;
-  padding: 1%;
-  border-radius: 20px;
-  font-size:16px;
-}
 
-.hebergementsCubeHotelChezAmina{
-  width: 29%;;
-  height: 199px;
-  background-color: white;
-  padding: 1%;
-  border-radius: 20px;
-  font-size:16px;
-}
 
-.hebergementsCubeAubergeDeLaMer{
-  width: 29%;;
-  height: 199px;
-  background-color: white;
-  padding: 1%;
-  border-radius: 20px;
-  font-size:16px;
-}
+
 
 .hebergementsCube:hover {
   cursor: pointer;
@@ -589,12 +547,7 @@ font-size:16px;
   height: 124px;
   border-radius: 15px 15px 0 0;
 }
-.hebergementsImageHotelDeLaMer {
-  object-fit: cover;
-  width: 100%;
-  height: 124px;
-  border-radius: 15px 15px 0 0;
-}
+
 .moreDisplay{
   margin-left:15px;
   margin-bottom: 10px;
@@ -739,6 +692,42 @@ font-size:16px;
   transform: scale(1.03);
 }
 
+.restaurantChoose{
+  display: flex;
+    align-items:center;
+}
+
+.filterFonctionnementAccueil{
+  display:flex;
+  margin-bottom: 12px;
+}
+
+.titleCardRestaurant{
+  display: flex;
+  font-weight: bold;
+  font-size:12px;
+}
+
+.heartAlaFrancaise{
+  margin-left: 27px;
+}
+.heart{
+  margin-left:100px;
+}
+
+.menuCompose{
+  display: flex;
+    align-items:center;
+}
+
+.filterFonctionnementAccueil2{
+  margin-left:10px;
+}
+
+.restaurantGout{
+  display: flex;
+    align-items:center;
+}
 
 .titleHeight {
   height: 70px;
@@ -751,31 +740,7 @@ font-size:16px;
   padding-right:105px;
 }
 
-.activitesTitreParcNationalDesCalanques{
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 23px;
-  padding-right: 30px;
-}
-.activitesTitreVieuxPort{
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 23px;
-  padding-right:170px;
-}
 
-.activitesTitreNotreDameDeLaGarde{
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 23px;
-  padding-right: 60px;
-}
-.activitesImageFortDePomergues {
-  object-fit: cover;
-  width: 100%;
-  height:385px;
-  border-radius: 15px 15px 0 0;
-}
 .activitesImage {
   object-fit: cover;
   width: 100%;
@@ -783,13 +748,7 @@ font-size:16px;
   border-radius: 15px 15px 0 0;
 }
 
-.activitesParcNationalDesCalanquesImage {
-  object-fit: cover;
-  width: 100%;
-  height: 389px;
-  border-radius: 15px 15px 0 0;
-  
-}
+
 
 .hebergementsDetailsCube{
   
@@ -890,6 +849,10 @@ footer {
   font-size:16px;
 }
 
+/*footer*/
+.subTitleFooter2{
+  margin-left:8px;
+}
 .subTitleFooterOhmyfood{
   font-size:23px;
   font-weight: bold;
@@ -897,6 +860,8 @@ footer {
 }
 
 .subTitleFooter{
+   display: flex;
+   align-items: center;
     margin-left:534px;
     padding:3px;
 }
@@ -1529,10 +1494,24 @@ footer {
 
 @media screen and (max-width: 767px) {
 
+  body{
+    
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  header{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .icon{
     height: 50px;
-    width: 95%;
+    width: 100%;
     border-radius: 10px 10px 10px 10px;
   }
 
@@ -1554,9 +1533,43 @@ footer {
     margin-bottom: 27px;
     margin-left: 0px;
     width: 120px;
-    height: 120px;
+    height: 60px;
   }
 
+  .restaurantChoose{
+  display: flex;
+    align-items:center;
+}
+
+.titleCardRestaurant{
+  display: flex;
+  font-weight: bold;
+}
+
+.heartAlaFrancaise{
+  margin-left: 160px;
+}
+.heart{
+  margin-left:140px;
+}
+
+.menuCompose{
+  display: flex;
+    align-items:center;
+}
+
+.filterFonctionnementAccueil2{
+  margin-left:10px;
+}
+
+#fonctionnement{
+  display:inherit;
+}
+
+.restaurantGout{
+  display: flex;
+    align-items:center;
+}
   #restaurants{
     display:inherit;
     background-color: inherit;
@@ -1598,11 +1611,15 @@ footer {
   text-decoration:underline;
   text-decoration-color: aquamarine;
 }
+
+.BackgroundColorHead{
+  background-color: #f3f3f3;
+}
 .backGrey{
   background-color: rgb(172, 162, 162);
 }
 .backGreyAccueil{
-  background-color: rgb(172, 162, 162);
+  background-color: rgb(233, 230, 230);
 }
 
 .backGreyLight{
@@ -1612,6 +1629,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items:center;
+  }
+
+  .subTitle2 {
+   margin-left:12px;
   }
   .Title {
     display: flex;
@@ -1634,13 +1655,14 @@ footer {
 .filter {
   display: flex;
 border: 2px solid 	#D3D3D3;
-border-radius: 25px;
-width: 75%;
+border-radius: 85px;
+width: 55%;
 height: 50px;
 align-items: center;
-background-color: purple;
-margin-left:20px;
+background-color: #c11dc1;
+margin-left:60px;
 padding-left:27px;
+color:white
 }
 .filterFonctionnementSubTitle{
   display: flex;
@@ -1666,9 +1688,21 @@ padding-left:27px;
 padding-right:27px;
 font-size: 13px;
 }
+
+.fonctionnementTitle{
+  margin-left:23px;
+}
+
+.restaurantTitle{
+  margin-left:23px;
+}
 #restaurants {
     margin-bottom:230px;
-    padding:0;
+    max-width: 1400px;
+    padding-right:50px;
+    padding-left:50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1688,7 +1722,7 @@ footer{
   display: flex;
   flex-direction: column;
     margin-top:133px;
-    background-color: #6e6565ce;
+    background-color: black;
 
 }
 
