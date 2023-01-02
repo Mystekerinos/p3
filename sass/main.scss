@@ -1546,6 +1546,9 @@ footer {
   font-weight: bold;
 }
 
+.filterTitle{
+  background-color: white;
+}
 .heartAlaFrancaise{
   margin-left: 160px;
 }
@@ -1576,14 +1579,19 @@ footer {
 
   }
 
+  .bodyBackground{
+    background-color: #f3f3f3;
+    border-radius:23px 
+  }
+
   .Title2{
-    margin-left:0px;
+    margin-left:25px;
     font-size: 20px;
   }
 
 .ImageTitle{
   height:233px;
-  width:233px;
+  width:100%;
 }
 
 .price{
@@ -1610,6 +1618,7 @@ footer {
   font-size: 12px;
   text-decoration:underline;
   text-decoration-color: aquamarine;
+  margin-left:25px;
 }
 
 .BackgroundColorHead{
@@ -1721,9 +1730,8 @@ font-size: 13px;
 footer{
   display: flex;
   flex-direction: column;
-    margin-top:133px;
     background-color: black;
-
+  height:164px;
 }
 
 .footBlocSize{
@@ -1731,6 +1739,26 @@ footer{
   height:30px;
   margin-top:0px;
   margin-left:0px;
+  color:white;
+  padding-left:5%;
+  padding-bottom:2%;
+}
+
+.propose{
+  padding-bottom: 2%;
+}
+
+.devenirMarge{
+  padding-bottom:2%;
+}
+
+.devenirLinkD{
+  padding-bottom:2%;
+}
+
+.mentionsLinkD{
+  padding-top:2%;
+  padding-bottom:2%;
 }
 
 .subTitleFooterOhmyfood{
@@ -1740,6 +1768,7 @@ footer{
 .subTitleFooter {
     color:white;
     margin-left:0;
+    padding-left:5%;
 }
 
 .subTitleFooterOhmyfood{
