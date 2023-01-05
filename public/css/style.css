@@ -1419,10 +1419,17 @@ footer {
   .bodyBackground {
     background-color: #f3f3f3;
     border-radius: 23px;
+    transform: translateY(-30px);
+  }
+  .heart1 {
+    margin-left: 117px;
   }
   .Title2 {
+    display: flex;
     margin-left: 25px;
     font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
   }
   .ImageTitle {
     height: 233px;
