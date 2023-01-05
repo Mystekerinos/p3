@@ -9,6 +9,17 @@ body {
   margin-right: auto;
 }
 
+.heart1 {
+  margin-left: 30px;
+}
+
+.TitleFirst {
+  display: flex;
+  margin-left: 330px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 /* Head */
 .titleBooki {
   width: 61px;
@@ -20,6 +31,7 @@ body {
 }
 
 .Title2 {
+  display: flex;
   margin-left: 330px;
 }
 
@@ -113,6 +125,7 @@ body {
 
 .price {
   margin-left: 20px;
+  font-weight: bold;
 }
 
 .center {
@@ -364,7 +377,7 @@ nav {
   margin-bottom: 23px;
   border: 2px solid #D3D3D3;
   border-radius: 25px;
-  width: 17%;
+  width: 10%;
   height: 50px;
   align-items: center;
   background-color: #d111d1;
@@ -813,6 +826,7 @@ footer {
   font-size: 23px;
   font-weight: bold;
   margin-left: 604px;
+  margin-top: 20px;
 }
 
 .subTitleFooter {
@@ -820,6 +834,7 @@ footer {
   align-items: center;
   margin-left: 534px;
   padding: 3px;
+  margin-left: 604px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -855,8 +870,8 @@ footer {
   }
   .filter {
     display: flex;
-    margin-left: 260px;
-    width: 19%;
+    margin-left: 300px;
+    width: 16%;
   }
   .logo {
     margin-left: 290px;
@@ -1315,7 +1330,11 @@ footer {
     margin-right: 0px;
   }
   .subTitleFooterOhmyfood {
-    margin-left: 0px;
+    margin-left: 310px;
+    margin-top: 20px;
+  }
+  .subTitleFooter {
+    margin-left: 310px;
   }
   .propose {
     font-size: 14px;
@@ -1418,7 +1437,7 @@ footer {
   }
   .bodyBackground {
     background-color: #f3f3f3;
-    border-radius: 23px;
+    border-radius: 23px 23px 0 0;
     transform: translateY(-30px);
   }
   .heart1 {
@@ -1431,12 +1450,19 @@ footer {
     font-weight: bold;
     font-style: italic;
   }
+  .TitleFirst {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0px;
+  }
   .ImageTitle {
     height: 233px;
     width: 100%;
   }
   .price {
     margin-left: 30px;
+    font-weight: bold;
   }
   .entreePart {
     margin-top: 10px;
@@ -1498,13 +1524,14 @@ footer {
     display: flex;
     border: 2px solid #D3D3D3;
     border-radius: 85px;
-    width: 55%;
+    width: 35%;
     height: 50px;
     align-items: center;
     background-color: #c11dc1;
-    margin-left: 60px;
+    margin-left: 100px;
     padding-left: 27px;
     color: white;
+    margin-bottom: 20px;
   }
   .filterFonctionnementSubTitle {
     display: flex;
