@@ -885,7 +885,7 @@ footer {
 
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 767px) and (max-width: 991px) {
 
   body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -1600,7 +1600,9 @@ footer {
   .bodyBackground{
     background-color: #f3f3f3;
     border-radius:23px 23px 0 0;
-    transform: translateY(-30px);
+    z-index:3;
+    position:unset;
+    margin-top:-40px;
   }
 
   .heart1{
@@ -1707,6 +1709,7 @@ margin-left:100px;
 padding-left:27px;
 color:white;
 margin-bottom:20px;
+background:linear-gradient(to bottom, #FF79DA, #9356DC)
 }
 .filterFonctionnementSubTitle{
   display: flex;
