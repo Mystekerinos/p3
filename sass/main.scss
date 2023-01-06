@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@media screen and (min-width: 992px) {
 body {
  font-family: Raleway, Arial, Helvetica, sans-serif; 
   max-width: 1400px;
@@ -881,11 +883,11 @@ footer {
 }
 
 
+}
 
 
 
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
   body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -1510,7 +1512,7 @@ footer {
 
 
 
-@media screen and (max-width: 767px) {
+
 
   body{
     
@@ -1813,5 +1815,4 @@ footer{
   padding:5%;
   font-size:17px;
   color:white;
-}
 }
