@@ -61,6 +61,26 @@ header {
   background-color: white;
 }
 
+.filterTitle {
+  box-shadow: #b0a8a8;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 12px;
+  width: 70%;
+  margin-left: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.filterFonctionnementTitle {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .heartAlaFrancaise {
   margin-left: 160px;
 }
@@ -133,18 +153,21 @@ header {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .platsPart {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .dessertsPart {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .subTitlePage {
@@ -223,12 +246,12 @@ header {
   display: flex;
   border: 2px solid #D3D3D3;
   border-radius: 85px;
-  width: 50%;
+  width: 40%;
   height: 50px;
   align-items: center;
   margin-top: 23px;
   margin-left: 80px;
-  padding-left: 27px;
+  padding-left: 57px;
   color: white;
   margin-bottom: 20px;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
@@ -236,9 +259,8 @@ header {
 
 .filterFonctionnementSubTitle {
   display: flex;
-  box-shadow: 0px 5px 5px rgb(228, 223, 223);
   font-weight: normal;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .filterFonctionnementAccueil {
@@ -325,10 +347,6 @@ footer {
   padding-bottom: 2%;
 }
 
-.subTitleFooterOhmyfood {
-  margin-left: 0px;
-}
-
 .subTitleFooter {
   color: white;
   margin-left: 0;
@@ -343,7 +361,10 @@ footer {
 }
 
 .subTitleFooterOhmyfood {
-  padding: 5%;
+  margin-left: 30px;
+  padding-bottom: 5px;
+  padding-top: 5%;
+  padding-left: 5%;
   font-size: 17px;
   color: white;
 }
@@ -382,6 +403,28 @@ footer {
     display: flex;
     margin-left: 200px;
     width: 30%;
+  }
+  .filter {
+    display: flex;
+    border: 2px solid #D3D3D3;
+    border-radius: 85px;
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 250px;
+    padding-left: 57px;
+    color: white;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  }
+  .bodyBackground {
+    background-color: #f3f3f3;
+    border-radius: 23px 23px 0 0;
+    z-index: 3;
+    position: unset;
+    margin-top: -40px;
+    width: 100%;
   }
   #fonctionnement {
     display: flex;
@@ -746,14 +789,14 @@ footer {
     font-weight: 900;
   }
   .filterTitle {
-    width: 100%;
+    width: 85%;
   }
   .filterFonctionnementTitle {
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 10px;
   }
   .filterFonctionnementSubTitle {
-    font-size: 8px;
+    font-size: 19px;
   }
   .populairesCubeChambresHotesAuCoeurDeLeau {
     width: 30%;
@@ -860,6 +903,12 @@ footer {
   }
   .subTitleFooterOhmyfood {
     margin-left: 250px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+  }
+  .subTitlePage {
+    font-size: 16px;
   }
   .subTitleFooter {
     margin-left: 200px;
@@ -906,7 +955,7 @@ footer {
   .TitleFirst {
     display: flex;
     margin-left: 330px;
-    font-size: 22px;
+    font-size: 42px;
     font-weight: bold;
   }
   /* Head */
@@ -928,6 +977,11 @@ footer {
   .headTitle {
     display: flex;
   }
+  .entreePart {
+    display: flex;
+    flex-direction: inherit;
+    width: 90%;
+  }
   .chartLogo {
     font-size: 18px;
   }
@@ -942,13 +996,16 @@ footer {
     margin-top: 24px;
     text-decoration: underline;
     text-decoration-color: aquamarine;
+    font-size: 23px;
   }
   .filterFonctionnementSubTitle {
     display: flex;
+    font-size: 15px;
   }
   .filterFonctionnementTitle {
     font-weight: bold;
     margin-top: 13px;
+    font-size: 24px;
   }
   .filterFonctionnementAccueil {
     display: flex;
@@ -976,10 +1033,14 @@ footer {
     border-radius: 25px;
     font-size: 12px;
     width: 65%;
-    height: 50px;
+    height: 80px;
     margin-left: 20px;
     padding-left: 27px;
     padding-right: 27px;
+  }
+  .bodyBackground {
+    background-color: #f3f3f3;
+    margin-top: 0;
   }
   .entreePart {
     margin-top: 10px;
@@ -987,14 +1048,14 @@ footer {
     justify-content: space-between;
   }
   .platsPart {
-    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: inherit;
+    width: 90%;
   }
   .dessertsPart {
-    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: inherit;
+    width: 90%;
   }
   .price {
     margin-left: 20px;
@@ -1204,13 +1265,13 @@ footer {
     margin-bottom: 23px;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
-    width: 15%;
+    width: 11%;
     height: 50px;
     align-items: center;
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
     color: white;
-    margin-left: 570px;
-    padding-left: 27px;
+    margin-left: 610px;
+    padding-left: 47px;
   }
   .filterWord {
     color: #000000;
