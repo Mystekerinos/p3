@@ -1488,7 +1488,7 @@ header {
 }
 
 .restaurantTitle {
-  margin-left: 23px;
+  margin-left: -23px;
   font-size: 23px;
 }
 
