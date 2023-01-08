@@ -1204,12 +1204,12 @@ footer {
     margin-bottom: 23px;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
-    width: 10%;
+    width: 15%;
     height: 50px;
     align-items: center;
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
     color: white;
-    margin-left: 590px;
+    margin-left: 570px;
     padding-left: 27px;
   }
   .filterWord {
