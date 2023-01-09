@@ -40,7 +40,7 @@ header {
 }
 
 .logo {
-  margin-bottom: 27px;
+  margin-bottom: 13px;
   margin-left: 0px;
   width: 120px;
   height: 60px;
@@ -115,9 +115,10 @@ header {
 .bodyBackground {
   background-color: #f3f3f3;
   border-radius: 23px 23px 0 0;
-  z-index: 3;
-  position: unset;
+  z-index: 1;
+  position: relative;
   margin-top: -40px;
+  height: 1470px;
 }
 
 .heart1 {
@@ -130,6 +131,7 @@ header {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
+  padding-top: 20px;
 }
 
 .TitleFirst {
@@ -249,11 +251,9 @@ header {
   width: 40%;
   height: 50px;
   align-items: center;
-  margin-top: 23px;
   margin-left: 80px;
   padding-left: 57px;
   color: white;
-  margin-bottom: 20px;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
 
