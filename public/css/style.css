@@ -372,7 +372,7 @@ footer {
   body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     max-width: 2340px;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     padding-right: 50px;
     padding-left: 50px;
     margin-left: auto;
@@ -385,6 +385,7 @@ footer {
   }
   .Title2 {
     margin-left: 130px;
+    padding-top: 50px;
   }
   .searchPadding {
     padding-left: 20px;
@@ -411,7 +412,7 @@ footer {
     height: 50px;
     align-items: center;
     margin-top: 23px;
-    margin-left: 250px;
+    margin-left: 230px;
     padding-left: 57px;
     color: white;
     margin-bottom: 20px;
@@ -419,11 +420,12 @@ footer {
   }
   .bodyBackground {
     background-color: #f3f3f3;
-    border-radius: 23px 23px 0 0;
+    border-radius: 0;
     z-index: 3;
     position: unset;
     margin-top: -40px;
     width: 100%;
+    height: 1590px;
   }
   #fonctionnement {
     display: flex;
@@ -1004,7 +1006,7 @@ footer {
   .filterFonctionnementTitle {
     font-weight: bold;
     margin-top: 13px;
-    font-size: 24px;
+    font-size: 22px;
   }
   .filterFonctionnementAccueil {
     display: flex;
