@@ -56,10 +56,27 @@ header {
   align-items: center;
 }
 
+.doubleTitle {
+  display: flex;
+  flex-direction: column;
+}
+
 .titleCardRestaurant {
   display: flex;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 19px;
+  margin-left: 10px;
+}
+
+.titleRestaurant {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.subtitleCardRestaurant {
+  margin-left: 10px;
+  font-size: 16px;
 }
 
 .filterTitle {
@@ -87,7 +104,7 @@ header {
 }
 
 .heartAlaFrancaise {
-  margin-left: 160px;
+  margin-left: 172px;
 }
 
 .heart {
@@ -221,8 +238,8 @@ header {
 
 .restaurantsCubeAlaFrancaise {
   width: 94%;
-  box-shadow: 5px 5px 5px 1px #c5bcbc;
   margin-bottom: 40px;
+  box-shadow: 5px 5px 5px 1px #c5bcbc;
   border-radius: 9px 9px 9px 9px;
   background-color: white;
   border-bottom-right-radius: 9px;
@@ -232,6 +249,7 @@ header {
   margin-right: 9px;
   margin-left: 9px;
   margin-top: 9px;
+  height: 254px;
 }
 
 .restaurantsCube {
@@ -247,17 +265,18 @@ header {
   margin-right: 9px;
   margin-left: 9px;
   margin-top: 9px;
+  height: 254px;
 }
 
 .filter {
   display: flex;
   border: 2px solid #D3D3D3;
   border-radius: 85px;
-  width: 40%;
+  width: 50%;
   height: 50px;
   align-items: center;
   margin-left: 80px;
-  padding-left: 57px;
+  padding-left: 37px;
   color: white;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
@@ -293,19 +312,18 @@ header {
 }
 
 .restaurantTitle {
-  margin-left: -23px;
+  margin-left: 10px;
   font-size: 23px;
 }
 
 #restaurants {
   background-color: #f3f3f3;
   max-width: 1400px;
-  padding-right: 50px;
-  padding-left: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 3px;
+  height: 1250px;
 }
 
 .backGreylight {
@@ -315,7 +333,7 @@ header {
 .restaurantsImage {
   object-fit: cover;
   width: 100%;
-  height: 134px;
+  height: 174px;
   border-radius: 15px 15px 0 0;
 }
 
@@ -368,12 +386,13 @@ footer {
 }
 
 .subTitleFooterOhmyfood {
-  margin-left: 30px;
-  padding-bottom: 5px;
+  font-style: italic;
+  margin-left: 17px;
+  font-weight: bold;
   padding-top: 5%;
-  padding-left: 5%;
   font-size: 17px;
   color: white;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
