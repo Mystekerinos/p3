@@ -123,7 +123,7 @@ header {
   z-index: 1;
   position: relative;
   margin-top: -55px;
-  height: 1470px;
+  height: 1130px;
 }
 
 .heart1 {
@@ -173,6 +173,7 @@ header {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .subTitlePage {
