@@ -275,7 +275,7 @@ header {
   width: 50%;
   height: 50px;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 70px;
   padding-left: 37px;
   color: white;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
@@ -426,25 +426,6 @@ footer {
     cursor: pointer;
     border-radius: 0 10px 10px 0;
   }
-  .filter {
-    display: flex;
-    margin-left: 200px;
-    width: 30%;
-  }
-  .filter {
-    display: flex;
-    border: 2px solid #D3D3D3;
-    border-radius: 85px;
-    width: 20%;
-    height: 50px;
-    align-items: center;
-    margin-top: 23px;
-    margin-left: 230px;
-    padding-left: 57px;
-    color: white;
-    margin-bottom: 20px;
-    background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  }
   .bodyBackground {
     background-color: #f3f3f3;
     border-radius: 0;
@@ -458,6 +439,15 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 32px;
+  }
+  #restaurants {
+    background-color: #f3f3f3;
+    max-width: 1400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    height: 1750px;
   }
   .filterFonctionnementAccueil {
     display: flex;
@@ -777,6 +767,24 @@ footer {
     height: 143px;
     width: 35%;
   }
+  .filter {
+    display: flex;
+    border: 2px solid #D3D3D3;
+    border-radius: 85px;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    margin-left: 280px;
+    padding-left: 27px;
+    color: white;
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  }
+  .heart {
+    margin-left: 470px;
+  }
+  .heartAlaFrancaise {
+    margin-left: 500px;
+  }
   .populairesHotelBleuEtBlancImage {
     object-fit: cover;
     width: 35%;
@@ -957,6 +965,15 @@ footer {
     height: 0px;
     margin-left: 85px;
   }
+  .subTitleFooterOhmyfood {
+    font-style: italic;
+    margin-left: 25px;
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+  }
   .devenirMarge {
     margin-left: 17px;
     font-size: 14px;
@@ -1099,8 +1116,8 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #f2f2f2;
-    margin-bottom: 5%;
     padding: 5%;
+    height: 500px;
   }
   .writeSize {
     font-weight: 900;
@@ -1294,13 +1311,13 @@ footer {
     margin-bottom: 23px;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
-    width: 11%;
+    width: 14%;
     height: 50px;
     align-items: center;
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
     color: white;
-    margin-left: 610px;
-    padding-left: 47px;
+    margin-left: 580px;
+    padding-left: 20px;
   }
   .filterWord {
     color: #000000;
