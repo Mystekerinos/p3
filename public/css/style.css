@@ -1,7 +1,9 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=R:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
@@ -20,8 +22,9 @@ header {
   width: 100%;
 }
 
-.titlePolice {
-  @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.heart:hover > .titleRestaurant {
+  color: #0065fc;
+  background-color: #deebff;
 }
 
 .titleAccueil {
@@ -45,6 +48,7 @@ header {
 }
 
 .logo {
+  font-family: Shrikhand, Arial, Helvetica, sans-serif;
   margin-bottom: 13px;
   margin-left: 0px;
   width: 120px;
@@ -158,6 +162,7 @@ header {
 }
 
 .TitleFirst {
+  font-family: Shrikhand, Arial, Helvetica, sans-serif;
   display: flex;
   font-size: 27px;
   font-weight: bold;
@@ -397,7 +402,7 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 2340px;
     padding-bottom: 200px;
     padding-right: 50px;
@@ -447,7 +452,6 @@ footer {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 3px;
-    height: 1750px;
   }
   .filterFonctionnementAccueil {
     display: flex;
@@ -987,7 +991,7 @@ footer {
 }
 @media screen and (min-width: 992px) {
   body {
-    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 1400px;
     padding-right: 50px;
     padding-left: 50px;
@@ -1116,7 +1120,7 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #f2f2f2;
-    padding: 5%;
+    padding-right: 5%;
     height: 500px;
   }
   .writeSize {
@@ -1311,7 +1315,7 @@ footer {
     margin-bottom: 23px;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
-    width: 14%;
+    width: 10%;
     height: 50px;
     align-items: center;
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
@@ -1565,6 +1569,10 @@ footer {
   .titleCardRestaurant {
     display: flex;
     font-weight: bold;
+    font-size: 13px;
+  }
+  .subtitleCardRestaurant {
+    margin-left: 10px;
     font-size: 12px;
   }
   .heartAlaFrancaise {
