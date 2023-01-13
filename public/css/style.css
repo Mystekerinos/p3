@@ -28,9 +28,17 @@ header {
   width: 100%;
 }
 
-.heart:hover > .titleRestaurant {
-  color: #0065fc;
-  background-color: #deebff;
+.accueilChoose:hover > .filterFonctionnementAccueil {
+  color: #9356DC;
+  background-color: #eae2f1;
+}
+
+.filterFonctionnementAccueil2 {
+  color: black;
+}
+
+.titleRestaurant:hover > .heart {
+  color: #9356DC;
 }
 
 .titleAccueil {
