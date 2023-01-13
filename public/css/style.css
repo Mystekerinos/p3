@@ -41,6 +41,10 @@ header {
   color: #9356DC;
 }
 
+.titleRestaurant:hover > .heartAlaFrancaise {
+  color: #9356DC;
+}
+
 .titleAccueil {
   font-size: 23px;
   text-align: center;
