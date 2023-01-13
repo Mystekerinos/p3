@@ -17,6 +17,12 @@ header {
   margin-right: 0;
 }
 
+.backgroundOrder {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
 .icon {
   height: 50px;
   width: 100%;
@@ -81,6 +87,7 @@ header {
 .subtitleCardRestaurant {
   margin-left: 10px;
   font-size: 16px;
+  margin-top: 5px;
 }
 
 .filterTitle {
@@ -88,14 +95,12 @@ header {
 }
 
 .filterTitle {
-  box-shadow: 0px 15px 0px #dfdfdf;
+  box-shadow: 2px 8px 0px #ede8e8;
   margin-top: 17px;
   border-radius: 10px;
   height: 70px;
   font-size: 12px;
-  width: 70%;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 80%;
   padding-left: 13px;
   padding-right: 27px;
 }
@@ -108,11 +113,11 @@ header {
 }
 
 .heartAlaFrancaise {
-  margin-left: 172px;
+  margin-left: 140px;
 }
 
 .heart {
-  margin-left: 140px;
+  margin-left: 110px;
 }
 
 .menuCompose {
@@ -144,11 +149,11 @@ header {
   z-index: 1;
   position: relative;
   margin-top: -55px;
-  height: 1130px;
+  height: 1400px;
 }
 
 .heart1 {
-  margin-left: 117px;
+  margin-left: 37px;
 }
 
 .Title2 {
@@ -156,7 +161,6 @@ header {
   margin-left: 25px;
   font-size: 20px;
   font-weight: bold;
-  font-style: italic;
   padding-top: 20px;
   align-items: center;
 }
@@ -164,9 +168,8 @@ header {
 .TitleFirst {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   display: flex;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: bold;
-  margin-left: 2px;
 }
 
 .ImageTitle {
@@ -183,23 +186,27 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 53px;
+  align-items: center;
 }
 
 .platsPart {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 53px;
+  align-items: center;
 }
 
 .dessertsPart {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 53px;
+  align-items: center;
 }
 
 .subTitlePage {
-  font-size: 12px;
+  font-size: 17px;
   margin-top: 30px;
   text-decoration: underline;
   text-decoration-color: aquamarine;
@@ -941,12 +948,6 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .subTitleFooterOhmyfood {
-    margin-left: 250px;
-    padding-top: 5%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-  }
   .subTitlePage {
     font-size: 16px;
   }
@@ -971,7 +972,7 @@ footer {
   }
   .subTitleFooterOhmyfood {
     font-style: italic;
-    margin-left: 25px;
+    margin-left: 250px;
     font-weight: bold;
     padding-top: 5%;
     font-size: 17px;
