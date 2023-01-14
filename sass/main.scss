@@ -26,6 +26,7 @@ header{
   width: 100%;
 }
 
+
 .accueilChoose:hover>.filterFonctionnementAccueil {
   color: #9356DC;
   background-color: #eae2f1;
@@ -60,12 +61,15 @@ header{
 }
 
 .titleRestaurant:hover>.heart{
-  color: #9356DC;
+  background-color:linear-gradient(to bottom, #FF79DA, #9356DC)
 }
 .titleRestaurant:hover>.heartAlaFrancaise{
-  color: #9356DC;
+   background-color:linear-gradient(to bottom, #FF79DA, #9356DC)
 }
 
+.MenuPart:hover>.filterTitle{
+  color:blue;
+}
 
 .titleAccueil{
   font-size: 23px;
@@ -212,7 +216,7 @@ width:100%;
 .price{
 font-weight:bold;
 }
-.entreePart{
+.menuPart{
 margin-top: 10px;
 display:flex;
 flex-direction: column;
@@ -220,20 +224,8 @@ margin-bottom:53px;
 align-items: center;
 }
 
-.platsPart{
-  margin-top: 10px;
-  display:flex;
-  flex-direction: column;
-  margin-bottom:53px;
-  align-items: center;
-}
-.dessertsPart{
-  margin-top: 10px;
-  display:flex;
-  flex-direction: column;
-  margin-bottom:53px;
-  align-items: center;
-}
+
+
 
 .subTitlePage{
 font-size: 17px;
@@ -670,7 +662,7 @@ margin-bottom:20px;
     display: flex;
   }
 
-  .entreePart{
+  .menuPart{
     display:flex;
     flex-direction: inherit;
     width:90%
@@ -747,23 +739,15 @@ margin-bottom:20px;
     height:870px;
   }
   
-  .entreePart{
+  .menuPart{
     margin-top: 10px;
     display:flex;
     justify-content: space-between;
   }
   
-  .platsPart{
-    display:flex;
-    flex-direction: inherit;
-    width:90%
-  }
+ 
   
-  .dessertsPart{
-    display:flex;
-    flex-direction: inherit;
-    width:90%
-  }
+ 
   
   .price{
     margin-left:20px;
@@ -785,12 +769,6 @@ margin-bottom:20px;
   height:500px;
   
   }
-  
-
-  
-  
-  
-  
   
 
   
@@ -830,26 +808,13 @@ margin-bottom:20px;
     margin-bottom: 27px;
     margin-left: 35px;
   }
-  
-
-  
- 
-  
-  
-  
 
   
   /*Filter*/
   
-  
-  
-  
   .fa-info:before{
     padding-left:9px;
   }
-  
-
-  
  
   
   .filter {
@@ -867,23 +832,15 @@ margin-bottom:20px;
     margin-left:580px;
     padding-left:20px;
     
-  
   }
 
 
-  
-  
- 
-  
-  
   .TitleText {
     color: #000000;
     margin-left: 4.5px;
     font-size: small;
     
   }
-  
-  
   
   .filterItem {
     display: flex;

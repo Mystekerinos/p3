@@ -61,11 +61,15 @@ header {
 }
 
 .titleRestaurant:hover > .heart {
-  color: #9356DC;
+  background-color: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
 
 .titleRestaurant:hover > .heartAlaFrancaise {
-  color: #9356DC;
+  background-color: linear-gradient(to bottom, #FF79DA, #9356DC);
+}
+
+.MenuPart:hover > .filterTitle {
+  color: blue;
 }
 
 .titleAccueil {
@@ -217,23 +221,7 @@ header {
   font-weight: bold;
 }
 
-.entreePart {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 53px;
-  align-items: center;
-}
-
-.platsPart {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 53px;
-  align-items: center;
-}
-
-.dessertsPart {
+.menuPart {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -599,7 +587,7 @@ footer {
   .headTitle {
     display: flex;
   }
-  .entreePart {
+  .menuPart {
     display: flex;
     flex-direction: inherit;
     width: 90%;
@@ -665,20 +653,10 @@ footer {
     margin-top: 0;
     height: 870px;
   }
-  .entreePart {
+  .menuPart {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-  }
-  .platsPart {
-    display: flex;
-    flex-direction: inherit;
-    width: 90%;
-  }
-  .dessertsPart {
-    display: flex;
-    flex-direction: inherit;
-    width: 90%;
   }
   .price {
     margin-left: 20px;
