@@ -64,15 +64,16 @@ header{
  display: none;
 }
 .heart:hover .heartB{
-  color: #9c47fc;
+  
   display: block;
-  background: linear-gradient(#9c47fc, #356ad2);
-  background-clip: text;
-  -webkit-text-fill-color:transparent ;
-  font: normal normal normal 14px/1 FontAwesome;
+  font-size:1.5em;
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .heart .heartB{
  display: none;
+ 
 }
 .titleRestaurant:hover>.heartAlaFrancaise{
    color:linear-gradient(to bottom, #FF79DA, #9356DC)
