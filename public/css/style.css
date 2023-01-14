@@ -76,12 +76,20 @@ header {
   display: none;
 }
 
-.titleRestaurant:hover > .heartAlaFrancaise {
-  color: linear-gradient(to bottom, #FF79DA, #9356DC);
+.circleCheck:hover .circle-checkA {
+  display: none;
 }
 
-.menuPart:hover > .filterTitle {
-  color: blue;
+.circleCheck:hover .circle-checkB {
+  display: block;
+  font-size: 1.5em;
+  background: greenyellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circleCheck .circle-checkB {
+  display: none;
 }
 
 .titleAccueil {
@@ -462,6 +470,10 @@ footer {
     margin-left: 130px;
     padding-top: 50px;
   }
+  .numero {
+    padding-right: 2px;
+    margin-left: inherit;
+  }
   .searchPadding {
     padding-left: 20px;
     width: 230px;
@@ -481,7 +493,6 @@ footer {
     position: unset;
     margin-top: -40px;
     width: 100%;
-    height: 1590px;
   }
   #fonctionnement {
     display: flex;
@@ -639,8 +650,8 @@ footer {
     width: 85%;
     height: 50px;
     align-items: center;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 47px;
+    padding-right: 67px;
     font-size: 13px;
   }
   #fonctionnement {
@@ -661,9 +672,10 @@ footer {
     padding-right: 27px;
   }
   .bodyBackground {
+    height: 1900px;
     background-color: #f3f3f3;
-    margin-top: 0;
-    height: 870px;
+    z-index: inherit;
+    position: inherit;
   }
   .menuPart {
     margin-top: 10px;
@@ -716,7 +728,6 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 23px;
-    margin-bottom: 23px;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
     width: 10%;
@@ -725,7 +736,6 @@ footer {
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
     color: white;
     margin-left: 580px;
-    padding-left: 20px;
   }
   .TitleText {
     color: #000000;
@@ -756,6 +766,12 @@ footer {
   }
   .restaurantsImage {
     width: 100%;
+  }
+  .numero {
+    margin-left: -214px;
+  }
+  .new {
+    margin-left: 170px;
   }
   /* icon */
   .information {
@@ -814,7 +830,6 @@ footer {
     font-size: 23px;
     font-weight: bold;
     margin-left: 604px;
-    margin-top: 20px;
     padding: 0%;
   }
   .subTitleFooter {
