@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -514,306 +513,9 @@ footer {
     font-size: 15px;
     background: #f3f3f3;
   }
-  .filterItem {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .linkSizeG {
-    margin-left: 0;
-  }
-  .linkSize {
-    padding: 0px;
-  }
-  .linkColor {
-    margin-left: 80px;
-  }
-  .downTownNatureCenter {
-    font-size: 16.75px;
-    margin-left: 2px;
-  }
-  .findHebergementTitle {
-    margin-left: 2px;
-  }
-  .information {
-    margin-left: 0px;
-  }
-  .iconPetFilter {
-    border: 2px solid #D3D3D3;
-    margin-left: -2px;
-    border-radius: 25px;
-    width: 190px;
-    height: 52px;
-    color: #0065fc;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .searchBorder {
-    width: 430px;
-    margin-left: 2px;
-  }
   /* information */
   .filterItem {
     margin-left: 19px;
-  }
-  .filterWord {
-    font-weight: bold;
-    font-size: 17px;
-    padding-left: 7px;
-  }
-  .filtreMargTitle {
-    font-weight: bold;
-    margin-left: 0px;
-  }
-  .filterRegroup {
-    margin-left: 2px;
-  }
-  .TitleMostPopulary {
-    margin-right: 46px;
-    font-size: 20px;
-    margin-bottom: 18px;
-    margin-top: 24px;
-    font-size: 16px;
-    margin-left: 5px;
-  }
-  .chartLogo {
-    padding: 0px;
-  }
-  /*Hebergement*/
-  .hebergementsBloc:nth-child(1) {
-    order: 2;
-    flex: none;
-    margin-right: 0;
-    padding: 5%;
-    margin-left: 0px;
-    width: 92%;
-  }
-  .hebergementsImage {
-    object-fit: cover;
-    width: 100%;
-    height: 64%;
-    border-radius: 15px 15px 0 0;
-  }
-  .hebergementsDetailsCube {
-    padding-right: 2px;
-    padding-bottom: 5px;
-  }
-  .hebergementsCube {
-    width: 64%;
-    height: 179px;
-    border-radius: 9px 9px 9px 9px;
-    background-color: white;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    margin-right: 9px;
-    margin-left: 9px;
-    margin-top: 9px;
-    margin-bottom: 9px;
-  }
-  .hebergementsCubeHotelChezAmina {
-    width: 64%;
-    height: 179px;
-    border-radius: 9px 9px 9px 9px;
-    background-color: white;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    margin-right: 9px;
-    margin-left: 5px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-  }
-  .hebergementsCubeAubergeLePanier {
-    width: 64%;
-    height: 179px;
-    border-radius: 9px 9px 9px 9px;
-    background-color: white;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    margin-right: 9px;
-    margin-left: 4px;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-  }
-  .hebergementsCubeAubergeDeLaCanebiereCube {
-    width: 64%;
-    height: 179px;
-    background-color: white;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-    margin: 9px;
-  }
-  .hebergementsCubeAubergeDeLaMer {
-    width: 64%;
-    height: 179px;
-    background-color: white;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin: 9px;
-  }
-  .hebergementsCubeAubergeDeLaMer {
-    width: 64%;
-    height: 179px;
-    background-color: white;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin: 9px;
-  }
-  .hebergementsCube {
-    width: 64%;
-    height: 179px;
-    background-color: white;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin: 9px;
-  }
-  .hebergementsImageHotelDeLaMer {
-    object-fit: cover;
-    width: 100%;
-    height: 64%;
-    border-radius: 15px 15px 0 0;
-  }
-  .hebergementTitle {
-    margin-left: 1px;
-    padding-left: 2px;
-  }
-  .hebergementTitle {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    padding-left: 0px;
-    margin-left: 15px;
-    font-size: 16px;
-  }
-  .card1 {
-    display: flex;
-    justify-content: normal;
-    flex-wrap: nowrap;
-    padding: 0px;
-    margin-bottom: 0px;
-  }
-  .card2 {
-    display: flex;
-    justify-content: normal;
-    flex-wrap: nowrap;
-    padding: 0px;
-    margin-bottom: 0px;
-  }
-  .moreDisplay {
-    margin-top: 10px;
-    font-size: 13px;
-    margin-left: 11px;
-  }
-  /* Populaire */
-  .titleCardPopulaire {
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 33px;
-    padding-right: 15px;
-  }
-  .starsPopulaire {
-    margin-bottom: 23px;
-    font-size: 11px;
-  }
-  .starsChambresHotesAuCoeurDeLeauPopulaire {
-    margin-top: 43px;
-    padding-right: 11px;
-    font-size: 11px;
-  }
-  .titleCardPopulaireChambresHotesAuCoeurDeLeauPopulaire {
-    padding-right: 10px;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  .subtitleCardChambresHotesAuCoeurDeLeauPopularize {
-    font-size: 13px;
-    margin-bottom: 50px;
-    margin-top: 9px;
-  }
-  .subtitleCardPopularize {
-    font-size: 12.5px;
-    margin-bottom: 44px;
-  }
-  .titleCardHebergementHotelDeLaMer {
-    font-size: 13px;
-  }
-  .titleCardHebergementAubergeLePanier {
-    font-size: 13px;
-    padding-top: 10px;
-  }
-  .titleCardHebergementAubergeDeLaCannebiere {
-    font-size: 13px;
-    padding-top: 3px;
-  }
-  .subtitleCardHebergementAubergeLePanier {
-    font-size: 10px;
-  }
-  .subtitleCardHebergementHotelDeLaMer {
-    font-size: 10px;
-  }
-  .titleCardHebergementHotelChezAmina {
-    font-size: 13px;
-  }
-  .subtitleCardHebergementHotelChezAmina {
-    font-size: 10px;
-  }
-  .subtitleCardHebergementAubergeDeLaCannebiere {
-    font-size: 10px;
-    padding-top: 4px;
-  }
-  .subtitleCardChambresHotesAuCoeurDeLeauPopularize {
-    margin-bottom: 3px;
-  }
-  .titleCardPopulaireHotelBleuEtBlanc {
-    font-size: 13px;
-  }
-  .titleCardHebergementHotelDuPort {
-    font-size: 13px;
-    padding-top: 2px;
-  }
-  .subtitleCardHebergementHotelDuPort {
-    padding-top: 4px;
-    font-size: 10px;
-  }
-  .titleCardHebergement {
-    font-size: 18px;
-  }
-  .subtitleCardHebergement {
-    font-size: 10px;
-    padding-top: 3px;
-  }
-  .starsHebergement {
-    font-size: 12px;
-  }
-  .betweenPopulary {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 0px;
-  }
-  .populairesImage {
-    height: 143px;
-    width: 35%;
   }
   .filter {
     display: flex;
@@ -833,45 +535,6 @@ footer {
   .heartAlaFrancaise {
     margin-left: 500px;
   }
-  .populairesHotelBleuEtBlancImage {
-    object-fit: cover;
-    width: 35%;
-    height: 144px;
-    border-radius: 15px 0 0 15px;
-  }
-  .populairesChambresHotesAuCoeurDeLeau {
-    background-color: white;
-    height: 154px;
-    border-radius: 20px;
-    padding: 0px;
-    width: 250px;
-  }
-  .populairesCube {
-    background-color: white;
-    height: 154px;
-    border-radius: 20px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 8px;
-    padding-bottom: 0px;
-    width: 250px;
-  }
-  .aroundColumnPopularize {
-    display: flex;
-    justify-content: space-between;
-  }
-  .populairesBloc:nth-child(2) {
-    order: 1;
-    margin-top: 22px;
-    width: 92%;
-    margin-right: 0px;
-    margin-left: 0;
-    padding: 5%;
-    padding-top: 0%;
-  }
-  .writeSize {
-    font-weight: 900;
-  }
   .filterTitle {
     width: 85%;
   }
@@ -881,104 +544,6 @@ footer {
   }
   .filterFonctionnementSubTitle {
     font-size: 19px;
-  }
-  .populairesCubeChambresHotesAuCoeurDeLeau {
-    width: 30%;
-  }
-  .populairesCubeHotelLeSoleilDuMatin {
-    width: 30%;
-  }
-  .populairesCubeHotelBleuEtBlanc {
-    width: 30%;
-  }
-  .filterWrapMobile {
-    align-items: flex-start;
-  }
-  #marseilleHebergements {
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-  /*Activity*/
-  .paraTitleDesktop {
-    margin-left: 0px;
-    font-size: 22px;
-    font-weight: bold;
-    font-size: 17px;
-  }
-  .activitesBloc {
-    height: 300px;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .activitesCube {
-    width: 22%;
-    height: 78%;
-  }
-  .activitesImage {
-    height: 80%;
-    width: 100%;
-  }
-  .activitesImageFortDePomergues {
-    height: 76%;
-    width: 100%;
-  }
-  .activitesTitreFortDePomegues {
-    font-weight: bold;
-    font-size: 16px;
-    padding-top: 18px;
-    padding-bottom: 20px;
-    padding-right: 0px;
-  }
-  .activitesParcNationalDesCalanquesImage {
-    object-fit: cover;
-    width: 100%;
-    height: 80%;
-    border-radius: 15px 15px 0 0;
-  }
-  .activitesTitreVieuxPort {
-    font-weight: bold;
-    font-size: 16px;
-    margin-right: 50px;
-    padding-left: 14px;
-    padding-top: 18px;
-    padding-bottom: 20px;
-    padding-right: 12px;
-  }
-  .activitesTitreFortDePomégues {
-    font-weight: bold;
-    font-size: 16px;
-    margin-right: 50px;
-    padding-left: 1px;
-    padding-top: 18px;
-    padding-bottom: 20px;
-    padding-right: 15px;
-  }
-  .activitesTitreParcNationalDesCalanques {
-    font-weight: bold;
-    font-size: 16px;
-    padding-top: 12px;
-    padding-bottom: 9px;
-    margin-right: 0px;
-    padding-left: 9px;
-    padding-right: 3px;
-  }
-  .activitesTitreNotreDameDeLaGarde {
-    font-weight: bold;
-    font-size: 16px;
-    padding-top: 13px;
-    padding-bottom: 8px;
-    padding-right: 25px;
-    padding-left: 15px;
-  }
-  .populairesCubeHotelLeSoleilDuMatin {
-    padding: 0.5% 0 0.5% 0.5%;
-  }
-  .populairesCubeChambresHotesAuCoeurDeLeau {
-    padding: 0.5% 0 0.5% 0.5%;
-  }
-  .populairesCubeHotelBleuEtBlanc {
-    padding: 0.5% 0 0.5% 0.5%;
   }
   footer {
     height: 235px;
@@ -991,22 +556,6 @@ footer {
   .subTitleFooter {
     margin-left: 200px;
   }
-  .propose {
-    font-size: 14px;
-    margin-left: 70px;
-  }
-  .proposeMarge {
-    width: 300px;
-  }
-  .footBlocSize {
-    margin-left: 0px;
-  }
-  .mentionsLinkD {
-    width: 200px;
-    font-size: 14px;
-    height: 0px;
-    margin-left: 85px;
-  }
   .subTitleFooterOhmyfood {
     font-style: italic;
     margin-left: 250px;
@@ -1015,16 +564,6 @@ footer {
     font-size: 17px;
     color: white;
     margin-bottom: 20px;
-  }
-  .devenirMarge {
-    margin-left: 17px;
-    font-size: 14px;
-  }
-  .devenirLinkD {
-    width: 200px;
-    font-size: 14px;
-    height: 0px;
-    margin-left: 35px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -1046,10 +585,6 @@ footer {
     font-weight: bold;
   }
   /* Head */
-  .titleBooki {
-    width: 61px;
-    height: 29px;
-  }
   .BackgroundColorHead {
     background-color: #eae6e6;
   }
@@ -1161,70 +696,6 @@ footer {
     padding-right: 5%;
     height: 500px;
   }
-  .writeSize {
-    font-weight: 900;
-    font-size: 18px;
-  }
-  .paraTitle {
-    margin-left: 39px;
-  }
-  .hebergementTitle {
-    padding-left: 17px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 22px;
-  }
-  .around {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .betweenPopulary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-  .between {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-  .centerColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .aroundColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .betweenColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .dNone1 {
-    text-decoration: none;
-    margin-left: 14px;
-  }
-  .dNone2 {
-    text-decoration: none;
-    margin-left: 14px;
-  }
-  .bNone {
-    border: none;
-  }
-  .TitleMostPopulary {
-    margin-right: 26px;
-    font-size: 22px;
-    margin-bottom: 28px;
-    margin-top: 34px;
-  }
   .filtreMargTitle {
     font-size: 18px;
   }
@@ -1243,108 +714,13 @@ footer {
   .backGrey {
     background-color: #f2f2f2;
   }
-  /* NAV */
-  .NavSize {
-    height: auto;
-  }
-  .linkSize {
-    width: 100%;
-  }
-  .linkSizeG {
-    margin-left: 60%;
-  }
-  .linkSize2 {
-    width: 140px;
-    height: 99px;
-  }
-  .linkColor {
-    color: black;
-    font-size: 16px;
-  }
-  .navBorder {
-    border-top: 1px solid transparent;
-  }
-  .navBorder:hover {
-    border-top: 1px solid #0065fc;
-    cursor: pointer;
-  }
-  .navBorder:hover > a {
-    color: #0065fc;
-  }
-  nav {
-    display: flex;
-  }
   .logo {
     margin-bottom: 27px;
     margin-left: 35px;
   }
-  /*HEADER*/
-  .findHebergementTitle {
-    font-size: 22px;
-    margin-left: 35px;
-  }
-  .downTownNatureCenter {
-    margin-top: 16px;
-    margin-bottom: 23px;
-    margin-left: 35px;
-  }
-  .deskNone {
-    display: none;
-  }
-  .searchBorder {
-    display: flex;
-    justify-content: start;
-    border: 0px solid #f2f2f2;
-    border-radius: 35px;
-    margin-left: 35px;
-  }
-  .searchPadding {
-    padding-left: 10px;
-  }
-  .search {
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
-  }
-  .icon {
-    background-color: #b0a8a8;
-    border-radius: 10px 0 0 10px;
-  }
-  .searchButton {
-    height: 49px;
-    width: 132px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-  }
-  .searchButton:hover {
-    color: #0065fc;
-    background-color: #e0b9b9;
-  }
   /*Filter*/
   .fa-info:before {
     padding-left: 9px;
-  }
-  /* icon */
-  .information {
-    display: flex;
-    align-items: center;
-    margin-left: 33px;
-  }
-  .iconAdults {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #f2f2f2;
-    border-radius: 25px;
-    margin-bottom: 23px;
-  }
-  .title500 {
-    margin-left: 13px;
-    margin-bottom: 20px;
-    font-size: 16px;
   }
   .filter {
     display: flex;
@@ -1360,11 +736,6 @@ footer {
     color: white;
     margin-left: 580px;
     padding-left: 20px;
-  }
-  .filterWord {
-    color: #000000;
-    padding-left: 10px;
-    font-weight: bold;
   }
   .TitleText {
     color: #000000;
@@ -1385,20 +756,6 @@ footer {
     padding-left: 27px;
     padding-right: 27px;
   }
-  .filtreMargTitle {
-    margin-top: 50px;
-    margin-left: 38px;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  .filterRegroup {
-    display: flex;
-    flex-direction: row;
-  }
-  .iconFilterText:hover > .filterItem {
-    color: #0065fc;
-    background-color: #deebff;
-  }
   .restaurantsCubeAlaFrancaise {
     width: 20%;
     margin-top: 80px;
@@ -1415,186 +772,6 @@ footer {
     display: flex;
     align-items: center;
     margin-left: 33px;
-  }
-  /* hebergement */
-  .marseilleHebergementsSize {
-    flex: 2;
-    height: 626px;
-    margin-right: 20px;
-    border-radius: 10px;
-  }
-  .titleCardHebergementAubergeDeLaCannebiere {
-    font-weight: bold;
-    padding-top: 13px;
-    font-size: 16px;
-  }
-  .subtitleCardHebergementAubergeDeLaCannebiere {
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .titleCardHebergementHotelDuPort {
-    font-weight: bold;
-    padding-top: 13px;
-    font-size: 16px;
-  }
-  .card1 {
-    padding-bottom: 1px;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  .card2 {
-    padding-top: 1px;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  .titleCardHebergement {
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  .subtitleCardHebergement {
-    font-size: 14px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-  .starsHebergement {
-    display: flex;
-    font-size: 15px;
-    margin-bottom: 1%;
-  }
-  .hebergementsBloc {
-    padding: 20px;
-    margin-left: 28px;
-  }
-  .hebergementsCube {
-    width: 29%;
-    height: 199px;
-    background-color: white;
-    padding: 1%;
-    border-radius: 20px;
-    font-size: 16px;
-  }
-  .hebergementsCube:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-  .hebergementsImage {
-    object-fit: cover;
-    width: 100%;
-    height: 124px;
-    border-radius: 15px 15px 0 0;
-  }
-  .moreDisplay {
-    margin-left: 15px;
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-  /* populary */
-  .populairesBloc {
-    padding: 20px;
-  }
-  .populairesBloc2 {
-    margin-bottom: 22px;
-  }
-  .populairesCubeHotelBleuEtBlanc {
-    background-color: white;
-    height: 144px;
-    padding: 1% 0 1% 1%;
-    border-radius: 20px;
-  }
-  .populairesCubeHotelLeSoleilDuMatin {
-    background-color: white;
-    height: 144px;
-    padding: 1% 0 1% 1%;
-    border-radius: 20px;
-  }
-  .populairesCubeChambresHotesAuCoeurDeLeau {
-    background-color: white;
-    height: 144px;
-    padding: 1% 0 1% 1%;
-    border-radius: 20px;
-  }
-  .subtitleCardPopularize {
-    font-size: 88%;
-    margin-top: 7px;
-    margin-bottom: 44px;
-  }
-  .starsChambresHotesAuCoeurDeLeauPopulaire {
-    display: flex;
-    width: 12px;
-    height: 12px;
-  }
-  .titleCardPopulaireChambresHotesAuCoeurDeLeauPopulaire {
-    padding-right: 35px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .subtitleCardChambresHotesAuCoeurDeLeauPopularize {
-    margin-top: 7px;
-    margin-bottom: 44px;
-    font-size: 88%;
-  }
-  .titleCardPopulaire {
-    font-weight: bold;
-    font-size: 16px;
-    padding-right: 35px;
-  }
-  .titleCardPopulaireHotelBleuEtBlanc {
-    font-weight: bold;
-    padding-right: 5px;
-    font-size: 16px;
-    margin-top: 3px;
-  }
-  .starsPopulaire {
-    display: flex;
-    width: 12px;
-    height: 12px;
-  }
-  .populairesCube:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-  }
-  .populairesDetailsCube {
-    width: 60%;
-    padding-left: 5%;
-  }
-  .populairesImage {
-    object-fit: cover;
-    width: 40%;
-    height: 144px;
-    border-radius: 15px 0 0 15px;
-  }
-  .populairesHotelBleuEtBlancImage {
-    object-fit: cover;
-    width: 44%;
-    height: 144px;
-    border-radius: 15px 0 0 15px;
-  }
-  /* actiity */
-  #Activites {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .activitesBloc {
-    margin-bottom: 10px;
-    margin-left: 23px;
-    margin-right: 10px;
-  }
-  .paraTitleDesktop {
-    margin-left: 30px;
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .activitesCube {
-    width: 23%;
-    height: 444.51px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-  }
-  .activitesCube:hover {
-    cursor: pointer;
-    transform: scale(1.03);
   }
   .restaurantChoose {
     display: flex;
@@ -1633,97 +810,11 @@ footer {
   .titleHeight {
     height: 70px;
   }
-  .activitesTitreFortDePomegues {
-    font-weight: bold;
-    font-size: 16px;
-    padding-top: 23px;
-    padding-right: 105px;
-  }
-  .activitesImage {
-    object-fit: cover;
-    width: 100%;
-    height: 385px;
-    border-radius: 15px 15px 0 0;
-  }
-  .hebergementsDetailsCube {
-    width: 90%;
-  }
   /* footer */
   footer {
     display: flex;
     flex-direction: column;
     background-color: #000000;
-  }
-  .footBlocSize {
-    margin-top: 0px;
-    margin-left: 590px;
-  }
-  .ourHebergement {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 24px;
-    margin-left: 140px;
-  }
-  .assistanceMarge {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 24px;
-    margin-left: 233px;
-  }
-  .about {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 24px;
-    margin-left: 80px;
-  }
-  .aboutMarge {
-    width: 620px;
-  }
-  .footBlocMarge2 {
-    margin-right: 15%;
-  }
-  .footLink {
-    color: black;
-  }
-  .fonctionnementLinkD {
-    height: 30px;
-    margin-top: 14px;
-    margin-left: 80px;
-    font-size: 16px;
-  }
-  .fooctionnementLinkD2 {
-    margin-left: 80px;
-    font-size: 16px;
-  }
-  .fooctionnementLinkD3 {
-    margin-left: 80px;
-    margin-top: 9px;
-    font-size: 16px;
-  }
-  .footLinkD {
-    height: 30px;
-  }
-  .hebergementLinkD {
-    height: 30px;
-    margin-left: 140px;
-    margin-top: 14px;
-    font-size: 16px;
-  }
-  .hebergementLinkD2 {
-    height: 30px;
-    margin-left: 140px;
-    font-size: 16px;
-  }
-  .assistanceLinkD {
-    height: 30px;
-    margin-left: 233px;
-    margin-top: 14px;
-    font-size: 16px;
-  }
-  .assistanceLinkD2 {
-    height: 30px;
-    margin-left: 233px;
-    font-size: 16px;
   }
   /*footer*/
   .subTitleFooter2 {
