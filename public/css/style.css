@@ -53,8 +53,8 @@ header {
   color: #0d3a0d;
   z-index: 1;
   position: relative;
-  margin-top: -210px;
-  margin-left: 625px;
+  margin-top: -230px;
+  margin-left: 245px;
   width: 68px;
   padding: 5px;
 }
@@ -468,6 +468,9 @@ footer {
     margin-left: 130px;
     padding-top: 50px;
   }
+  .new {
+    margin-left: 625px;
+  }
   .numero {
     padding-right: 2px;
     margin-left: inherit;
@@ -769,7 +772,8 @@ footer {
     margin-left: -214px;
   }
   .new {
-    margin-left: 170px;
+    margin-top: -210px;
+    margin-left: 173px;
   }
   /* icon */
   .information {
