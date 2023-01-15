@@ -9,6 +9,27 @@ body {
   margin-right: 0;
 }
 
+/* Header */
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundLocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 230, 230);
+  height: 50px;
+  width: 100%;
+}
+
+.Location {
+  margin-left: 12px;
+  font-weight: bold;
+}
+
 header {
   padding-left: 0;
   padding-right: 0;
@@ -21,9 +42,39 @@ header {
   flex-direction: column;
 }
 
-.icon {
-  height: 50px;
-  width: 100%;
+.titleAccueil {
+  font-size: 23px;
+  text-align: center;
+  padding-top: 24px;
+  padding-left: 63px;
+  padding-right: 60px;
+}
+
+.subTitleAccueil {
+  font-size: 20px;
+  text-align: center;
+  font-weight: inherit;
+  padding-bottom: 14px;
+}
+
+.buttonAccueil {
+  display: flex;
+  border: 2px solid #D3D3D3;
+  border-radius: 85px;
+  justify-content: center;
+  min-height: 50px;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 54px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+}
+
+.fonctionnementTitle {
+  margin-left: 23px;
+  font-size: 23px;
 }
 
 .accueilChoose:hover > .filterFonctionnementAccueil {
@@ -91,21 +142,6 @@ header {
 
 .circleCheck .circle-checkB {
   display: none;
-}
-
-.titleAccueil {
-  font-size: 23px;
-  text-align: center;
-  margin-top: -24px;
-  padding-top: 24px;
-  padding-left: 63px;
-  padding-right: 60px;
-}
-
-.subTitleAccueil {
-  font-size: 20px;
-  text-align: center;
-  font-weight: inherit;
 }
 
 .headTitle {
@@ -270,10 +306,6 @@ header {
   background-color: rgb(172, 162, 162);
 }
 
-.backGreyAccueil {
-  background-color: rgb(233, 230, 230);
-}
-
 .backGreyLight {
   background-color: rgba(134, 132, 132, 0.61);
 }
@@ -284,17 +316,6 @@ header {
   align-items: center;
 }
 
-.subTitle2 {
-  margin-left: 12px;
-  font-weight: bold;
-}
-
-.Title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .restaurantsCube {
   width: 94%;
   margin-bottom: 40px;
@@ -327,18 +348,22 @@ header {
   height: 254px;
 }
 
-.filter {
+.filterRestaurant {
   display: flex;
-  border: 2px solid #D3D3D3;
   border-radius: 85px;
+  border: 2px solid #D3D3D3;
   justify-content: center;
   min-height: 50px;
   align-items: center;
-  font-size: 18px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
+}
+
+.commander {
+  display: flex;
+  justify-content: center;
 }
 
 .filterFonctionnementSubTitle {
@@ -364,11 +389,6 @@ header {
   padding-right: 17px;
   font-size: 15px;
   background: #f3f3f3;
-}
-
-.fonctionnementTitle {
-  margin-left: 23px;
-  font-size: 23px;
 }
 
 .restaurantTitle {
