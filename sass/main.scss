@@ -17,7 +17,6 @@ header{
 }
 
 .backgroundOrder{
-  margin-top:10px;
   display: flex;
   flex-direction: column;
 }
@@ -139,32 +138,34 @@ display: flex;
 display: flex;
 font-weight: bold;
 font-size:19px;
-margin-left:10px;
+
 }
 
 .titleRestaurant{
   display:flex;
   align-items: center;
-  margin-top:13px;
+  justify-content: space-between;
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
 }
 
 .subtitleCardRestaurant{
-  margin-left:10px;
+  
   font-size:16px;
   margin-top:5px;
 }
-.filterTitle{
-background-color: white;
-}
+
 
 .filterTitle{
 box-shadow: 2px 8px 0px #ede8e8;
+background-color: white;
 margin-top: 17px;
 border-radius: 10px;
-height:70px;
+min-height:70px;
 font-size:12px;
 width: 80%;
-
 padding-left:13px;
 padding-right:27px
 }
