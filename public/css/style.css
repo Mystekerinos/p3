@@ -7,6 +7,7 @@ body {
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 /* Header */
@@ -421,7 +422,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: black;
-  height: 184px;
+  min-height: 184px;
 }
 
 .footBlocSize {
