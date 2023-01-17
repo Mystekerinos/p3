@@ -682,6 +682,9 @@ footer {
     padding-right: 67px;
     font-size: 13px;
   }
+  .restaurantsCube {
+    box-shadow: 2px 2px 2px 1px #c5bcbc;
+  }
   #fonctionnement {
     display: flex;
     justify-content: space-around;
