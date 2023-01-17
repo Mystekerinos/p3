@@ -672,10 +672,10 @@ footer {
     display: flex;
     border: 2px solid #D3D3D3;
     margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 12px;
     border-radius: 25px;
     font-weight: bold;
-    width: 85%;
+    width: 17%;
     height: 50px;
     align-items: center;
     padding-left: 47px;
@@ -835,7 +835,7 @@ footer {
     align-items: center;
   }
   .filterFonctionnementAccueil2 {
-    margin-left: 10px;
+    padding-left: 15px;
   }
   .restaurantGout {
     display: flex;
