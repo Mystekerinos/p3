@@ -162,8 +162,7 @@ header {
 
 .logo {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
-  margin-bottom: 13px;
-  margin-left: 0px;
+  padding-left: 50px;
   width: 120px;
   height: 60px;
 }
