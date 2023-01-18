@@ -11,7 +11,7 @@ body{
 }
 
 
-.loading
+.accueilloading
 {
   display: block;
   position: fixed;
@@ -24,7 +24,7 @@ body{
   animation-delay: 1500ms;
 }
 
-.loading::after
+.accueilloading::after
 {
   content : "";
   display: block;
