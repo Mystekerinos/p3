@@ -63,7 +63,7 @@ body{
 
   .titleLogo {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     padding-left:0px;
     padding-right:80px;
     align-items:center;
@@ -424,7 +424,7 @@ border-top-right-radius: 23px;
 margin-right:9px;
 margin-left:9px;
 margin-top:9px;
-min-height:254px;
+height:254px;
 }
 
 .filterRestaurant {
@@ -509,7 +509,7 @@ font-size:23px;
 .restaurantsImage{
   object-fit: cover;
   width: 100%;
-  min-height: 174px;
+  height: 174px;
   border-radius: 15px 15px 0 0
 }
 

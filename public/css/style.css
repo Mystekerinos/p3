@@ -399,7 +399,7 @@ header {
   margin-right: 9px;
   margin-left: 9px;
   margin-top: 9px;
-  min-height: 254px;
+  height: 254px;
 }
 
 .filterRestaurant {
@@ -477,7 +477,7 @@ header {
 .restaurantsImage {
   object-fit: cover;
   width: 100%;
-  min-height: 174px;
+  height: 174px;
   border-radius: 15px 15px 0 0;
 }
 
