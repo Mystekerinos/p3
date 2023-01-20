@@ -112,8 +112,8 @@ header {
   position: relative;
   min-width: 24px;
   min-height: 24px;
-  margin-right: 35px;
-  margin-left: -57px;
+  margin-right: 10%;
+  margin-left: -17.95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +201,7 @@ header {
 
 .subtitleCardRestaurant {
   font-size: 16px;
-  margin-top: 5px;
+  padding-top: 3%;
 }
 
 .filterTitle {
@@ -223,12 +223,8 @@ header {
   margin-bottom: 5px;
 }
 
-.heartAlaFrancaise {
-  margin-left: 140px;
-}
-
 .heart {
-  margin-left: 110px;
+  padding-right: 10px;
 }
 
 .menuCompose {
@@ -238,22 +234,19 @@ header {
 
 .filterFonctionnementAccueil2 {
   font-size: 16px;
-  padding-left: 35px;
+  padding-left: 9%;
 }
 
 #fonctionnement {
   display: inherit;
   margin-bottom: 63px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .restaurantGout {
   display: flex;
   align-items: center;
-}
-
-#restaurants {
-  display: inherit;
-  background-color: inherit;
 }
 
 .bodyBackground {
@@ -333,23 +326,6 @@ header {
 }
 
 .restaurantsCube {
-  width: 94%;
-  margin-bottom: 40px;
-  box-shadow: 5px 5px 5px 1px #c5bcbc;
-  border-radius: 9px 9px 9px 9px;
-  background-color: white;
-  border-bottom-right-radius: 9px;
-  border-bottom-left-radius: 9px;
-  border-top-left-radius: 23px;
-  border-top-right-radius: 23px;
-  margin-right: 9px;
-  margin-left: 9px;
-  margin-top: 9px;
-  min-height: 254px;
-}
-
-.restaurantsCube {
-  width: 94%;
   margin-bottom: 40px;
   box-shadow: 2px 2px 2px 1px #c5bcbc;
   border-radius: 9px 9px 9px 9px;
@@ -358,10 +334,10 @@ header {
   border-bottom-left-radius: 9px;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
-  margin-right: 9px;
-  margin-left: 9px;
+  margin-right: 4%;
+  margin-left: 4%;
   margin-top: 9px;
-  height: 254px;
+  min-height: 254px;
 }
 
 .filterRestaurant {
@@ -396,13 +372,11 @@ header {
   margin-bottom: 10px;
   border-radius: 25px;
   font-weight: bold;
-  width: 65%;
   min-height: 60px;
   box-shadow: 0px 5px 5px rgb(228, 223, 223);
   align-items: center;
-  margin-left: 20px;
-  padding-left: 47px;
-  padding-right: 17px;
+  padding-left: 11%;
+  padding-right: 11%;
   font-size: 15px;
   background: #f3f3f3;
 }
@@ -418,7 +392,8 @@ header {
 }
 
 .restaurantTitle {
-  margin-left: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
   font-size: 23px;
 }
 
@@ -479,11 +454,10 @@ footer {
 
 .subTitleFooter {
   color: white;
-  margin-left: 0;
   padding-left: 5%;
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 1%;
 }
 
 .subTitleFooter2 {
@@ -492,7 +466,7 @@ footer {
 }
 
 .subTitleFooterOhmyfood {
-  margin-left: 20px;
+  padding-left: 5%;
   font-weight: bold;
   padding-top: 5%;
   font-size: 17px;
@@ -504,7 +478,6 @@ footer {
   body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 2340px;
-    padding-bottom: 200px;
     padding-right: 50px;
     padding-left: 50px;
     margin-left: auto;
@@ -524,7 +497,7 @@ footer {
   }
   .numero {
     padding-right: 2px;
-    margin-left: -27px;
+    margin-left: -17%;
   }
   .searchPadding {
     padding-left: 20px;
@@ -550,6 +523,8 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 32px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   #restaurants {
     background-color: #f3f3f3;
@@ -592,12 +567,6 @@ footer {
     color: white;
     background: linear-gradient(to bottom, #FF79DA, #9356DC);
   }
-  .heart {
-    margin-left: 470px;
-  }
-  .heartAlaFrancaise {
-    margin-left: 500px;
-  }
   .filterTitle {
     width: 85%;
   }
@@ -617,10 +586,10 @@ footer {
     font-size: 16px;
   }
   .subTitleFooter {
-    margin-left: 200px;
+    padding-left: 40%;
   }
   .subTitleFooterOhmyfood {
-    margin-left: 240px;
+    padding-left: 40%;
     font-weight: bold;
     padding-top: 5%;
     font-size: 17px;
@@ -647,7 +616,7 @@ footer {
   }
   /* Head */
   .BackgroundColorHead {
-    background-color: #eae6e6;
+    background-color: #f3f3f3;
   }
   .Title2 {
     display: flex;
@@ -704,9 +673,6 @@ footer {
     padding-right: 67px;
     font-size: 13px;
   }
-  .restaurantsCube {
-    box-shadow: 2px 2px 2px 1px #c5bcbc;
-  }
   #fonctionnement {
     display: flex;
     justify-content: space-around;
@@ -746,10 +712,9 @@ footer {
   }
   #restaurants {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: #f2f2f2;
-    padding-right: 5%;
-    min-height: 500px;
+    min-height: 50px;
   }
   .filtreMargTitle {
     font-size: 18px;
@@ -811,16 +776,27 @@ footer {
     padding-left: 27px;
     padding-right: 27px;
   }
-  .restaurantsCubeAlaFrancaise {
-    width: 20%;
-    margin-top: 80px;
+  .restaurantCard {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .restaurantTitle {
+    padding-left: 1%;
+    padding-left: 1%;
   }
   .restaurantsCube {
     width: 20%;
-    margin-top: 80px;
+    margin-top: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px 1px #c5bcbc;
+    min-height: 195px;
   }
   .restaurantsImage {
     width: 100%;
+    height: 125px;
   }
   .new {
     margin-top: -210px;
@@ -846,21 +822,14 @@ footer {
     font-size: 13px;
   }
   .subtitleCardRestaurant {
-    margin-left: 10px;
     font-size: 12px;
   }
   .heartAlaFrancaise {
     margin-left: 27px;
   }
-  .heart {
-    margin-left: 100px;
-  }
   .menuCompose {
     display: flex;
     align-items: center;
-  }
-  .filterFonctionnementAccueil2 {
-    padding-left: 15px;
   }
   .restaurantGout {
     display: flex;
@@ -881,18 +850,13 @@ footer {
   }
   .subTitleFooterOhmyfood {
     font-size: 23px;
-    font-weight: bold;
-    margin-left: 610px;
-    margin-top: 10px;
-    padding: 0%;
-    color: white;
+    padding-left: 48%;
   }
   .subTitleFooter {
     display: flex;
     align-items: center;
-    margin-left: 534px;
     padding: 3px;
-    margin-left: 604px;
+    padding-left: 48%;
     color: white;
   }
 }
