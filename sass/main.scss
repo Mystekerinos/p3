@@ -11,53 +11,53 @@ body{
 }
 
 
-.accueilLoading
-{
-  display: block;
-  position: fixed;
-  width: 100%;
-  min-height: 100%;
-  z-index: 10;
+// .accueilLoading
+// {
+//   display: block;
+//   position: fixed;
+//   width: 100%;
+//   min-height: 100%;
+//   z-index: 10;
 
-  background-color: lightgrey;
-  animation: hideLoader 3500ms 1 forwards;
-  animation-delay: 1500ms;
-}
+//   background-color: lightgrey;
+//   animation: hideLoader 3500ms 1 forwards;
+//   animation-delay: 1500ms;
+// }
 
-.accueilloading::after
-{
-  content : "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+// .accueilloading::after
+// {
+//   content : "";
+//   display: block;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%,-50%);
  
-  width: 50px;
-  height: 50px;
-  border: black solid 5px;
-  border-top-color: red;
-  border-bottom-color: red;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
+//   width: 50px;
+//   height: 50px;
+//   border: black solid 5px;
+//   border-top-color: red;
+//   border-bottom-color: red;
+//   border-radius: 50%;
+//   animation: spin 1s linear infinite;
+// }
 
-@keyframes hideLoader
-{
-  100%
-  {
-    opacity: 0;
-    display: none;
-  }
-}
+// @keyframes hideLoader
+// {
+//   100%
+//   {
+//     opacity: 0;
+//     display: none;
+//   }
+// }
 
-@keyframes spin
-{
-  100%
-  {
-    transform: translate(-50%,-50%) rotate(360deg);
-  }
-}
+// @keyframes spin
+// {
+//   100%
+//   {
+//     transform: translate(-50%,-50%) rotate(360deg);
+//   }
+// }
 
   /* Header */
 
@@ -563,14 +563,14 @@ margin-bottom:5px;
 }
 
 .subTitleFooterOhmyfood{
-font-style: italic;
-margin-left:17px;
+
+margin-left:20px;
 font-weight: bold;
 padding-top:5%;
 
 font-size:17px;
 color:white;
-margin-bottom:20px;
+margin-bottom:1px;
 }
 
 
@@ -749,14 +749,14 @@ margin-left:500px;
 
 
 .subTitleFooterOhmyfood{
-font-style: italic;
-margin-left:250px;
+
+margin-left:240px;
 font-weight: bold;
 padding-top:5%;
 
 font-size:17px;
 color:white;
-margin-bottom:20px;
+
 }
 
 
@@ -1157,10 +1157,10 @@ margin-bottom:20px;
   .subTitleFooterOhmyfood{
     font-size:23px;
     font-weight: bold;
-    margin-left:604px;
-    padding-top:10px;
+    margin-left:610px;
+    margin-top:10px;
     padding:0%;
-    
+    color:white;
   }
   
   .subTitleFooter{
