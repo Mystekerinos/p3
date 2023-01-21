@@ -10,6 +10,45 @@ body {
   margin-bottom: 0;
 }
 
+.accueilLoading {
+  display: block;
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  background-color: lightgrey;
+  animation: hideLoader 3500ms 1 forwards;
+  animation-delay: 1500ms;
+}
+
+.accueilloading::after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: black solid 5px;
+  border-top-color: red;
+  border-bottom-color: red;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes hideLoader {
+  100% {
+    opacity: 0;
+    width: 0;
+    display: none;
+  }
+}
+@keyframes spin {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 /* Header */
 .titleLogo {
   display: flex;
@@ -65,6 +104,12 @@ header {
   padding-top: 24px;
   padding-left: 63px;
   padding-right: 60px;
+}
+
+.titleLogoAccueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subTitleAccueil {
@@ -123,9 +168,11 @@ header {
   color: #0d3a0d;
   z-index: 1;
   position: absolute;
-  padding: 1%;
+  padding: 2%;
   right: 17px;
   top: 26px;
+  max-width: 105px;
+  overflow-wrap: break-word;
 }
 
 .heart:hover .heartA {
@@ -625,6 +672,11 @@ footer {
   }
   .Title2 {
     display: flex;
+  }
+  .titleLogoAccueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .ImageTitle {
     min-height: 300px;
