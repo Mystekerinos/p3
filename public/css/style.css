@@ -13,9 +13,9 @@ body {
 /* Header */
 .titleLogo {
   display: flex;
-  justify-content: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 30%;
   align-items: center;
 }
 
@@ -497,6 +497,9 @@ footer {
     top: 30px;
     right: 36px;
   }
+  .titleLogo {
+    padding-right: 40%;
+  }
   .numero {
     padding-right: 2px;
     margin-left: -17%;
@@ -612,7 +615,7 @@ footer {
   }
   .TitleFirst {
     display: flex;
-    margin-left: 330px;
+    margin-left: 37%;
     font-size: 42px;
     font-weight: bold;
   }
@@ -644,6 +647,9 @@ footer {
   }
   .subTitle2 {
     margin-left: 12px;
+  }
+  .titleLogo {
+    padding-right: 40%;
   }
   .subTitlePage {
     margin-top: 24px;
