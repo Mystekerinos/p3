@@ -173,11 +173,11 @@ header{
   background-color: rgb(77, 220, 167);
   color:#0d3a0d;
   z-index:1;
-  position:relative;
-  margin-top:-230px;
-  margin-left:245px;
+  position:absolute;
   width:68px;
   padding:5px;
+  right:17px;
+  top:26px;
 }
 
 .heart:hover .heartA{
@@ -404,6 +404,7 @@ margin-right:4%;
 margin-left:4%;
 margin-top:9px;
 min-height:254px;
+position:relative;
 }
 
 .filterRestaurant {
@@ -575,7 +576,12 @@ margin-bottom:1px;
     }
 
     .new{
-      margin-left:625px;
+      margin-left:0px;
+      margin-right:0px;
+      margin-top:0px;
+      position:absolute;
+      top:30px;
+      right:36px;
     }
 
       .numero{
@@ -990,6 +996,7 @@ color:white;
     justify-content: space-between;
     margin-left: 1%;
     margin-right: 1%;
+    
   }
  
 
@@ -1005,7 +1012,10 @@ color:white;
     margin-left:0%;
     box-shadow:2px 2px 2px 1px #c5bcbc;
     min-height:195px;
+    position:relative;
   }
+
+ 
   
   .restaurantsImage{
     width:100%;
@@ -1014,8 +1024,11 @@ color:white;
   
   
   .new{
-    margin-top: -210px;
-    margin-left:173px;
+   right: 10px;
+   top:24px;
+    position:absolute;
+    margin-top: 0px;
+    margin-left:0px;
   }
   
   /* icon */
@@ -1033,7 +1046,9 @@ color:white;
   
   
   
- 
+ .numero{
+  margin-left:-30%;
+ }
   
  
   
@@ -1096,6 +1111,7 @@ color:white;
   .restaurantGout{
     display: flex;
       align-items:center;
+      position:relative;
   }
   
   .titleHeight {
@@ -1143,6 +1159,9 @@ color:white;
       padding-left:48%;
       color:white;
   }
+
+
+
   
 }
   
