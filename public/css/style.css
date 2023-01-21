@@ -255,16 +255,14 @@ header {
   min-height: 1300px;
 }
 
-.heart1 {
-  margin-left: 47px;
-}
-
 .Title2 {
   display: flex;
-  margin-left: 25px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
-  padding-top: 30px;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 12%;
+  padding-top: 10%;
   align-items: center;
 }
 
@@ -295,9 +293,10 @@ header {
 .subTitlePage {
   font-size: 17px;
   margin-top: 30px;
+  text-underline-offset: 0.6em;
   text-decoration: underline;
   text-decoration-color: aquamarine;
-  margin-left: 25px;
+  padding-left: 5%;
 }
 
 .BackgroundColorHead {
@@ -623,7 +622,6 @@ footer {
   }
   .Title2 {
     display: flex;
-    margin-left: 330px;
   }
   .ImageTitle {
     min-height: 300px;
