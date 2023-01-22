@@ -422,7 +422,7 @@ position:relative;
   justify-content: center;
   min-height: 50px;
   align-items: center;
-
+  margin-bottom: 10%;
   color:white;
   padding-left:50px;
   padding-right:50px;
@@ -458,9 +458,9 @@ font-size: 15px;
 background:#f3f3f3;
 }
 
-.BackgroundColorHead:hover>.buttonAccueil {
-  color: #0a0b0c;
-  background-color: #deebff;
+.buttonAccueil:hover>.nameButton {
+  
+  color: #000000;
 }
 
 .commander:hover>.filterRestaurant {
