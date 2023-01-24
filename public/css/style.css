@@ -248,16 +248,37 @@ header {
   padding-top: 3%;
 }
 
-.filterTitle {
+.fa-circle-checkB {
+  display: flex;
+  justify-content: end;
+}
+
+#filterTitleMeal {
+  position: relative;
+  width: 80%;
+}
+
+#back {
+  background-color: rgb(31, 224, 14);
+}
+
+#front {
+  position: relative;
   box-shadow: 2px 8px 0px #ede8e8;
   background-color: white;
-  margin-top: 17px;
   border-radius: 10px;
-  min-height: 70px;
   font-size: 12px;
-  width: 80%;
+  bottom: 18px;
   padding-left: 13px;
   padding-right: 27px;
+}
+
+#filterTitleMeal:hover #front {
+  width: 80%;
+}
+
+.filterTitleMeal:not(:hover) #front {
+  width: 100%;
 }
 
 .filterFonctionnementTitle {
@@ -621,6 +642,7 @@ footer {
   }
   .filterTitle {
     width: 85%;
+    background-color: red;
   }
   .filterFonctionnementTitle {
     font-size: 20px;

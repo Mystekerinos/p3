@@ -270,18 +270,83 @@ font-size:19px;
   padding-top:3%;
 }
 
+// .fa-circle-check{
+//   color:green;
+// }
 
-.filterTitle{
-box-shadow: 2px 8px 0px #ede8e8;
-background-color: white;
-margin-top: 17px;
-border-radius: 10px;
-min-height:70px;
-font-size:12px;
-width: 80%;
-padding-left:13px;
-padding-right:27px
+.fa-circle-checkB{
+  display:flex;
+  justify-content: end;
 }
+
+#filterTitleMeal{
+
+  position: relative;
+  
+   width: 80%;
+  
+   
+
+}
+
+#back{
+
+
+
+  background-color: rgb(31, 224, 14);
+  
+  
+}
+
+#front{
+
+ position:relative;
+
+  box-shadow: 2px 8px 0px #ede8e8;
+background-color: white;
+
+ border-radius: 10px;
+ 
+font-size:12px;
+bottom:18px;
+ padding-left:13px;
+padding-right:27px;
+
+}
+
+
+
+#filterTitleMeal:hover #front{
+
+  width: 80%;
+  
+}
+
+
+
+.filterTitleMeal:not(:hover) #front{
+
+  width: 100%;
+
+}
+
+
+
+
+
+
+// .filterTitle{
+// box-shadow: 2px 8px 0px #ede8e8;
+// background-color: white;
+// margin-top: 17px;
+// border-radius: 10px;
+// min-height:70px;
+// font-size:12px;
+// width: 80%;
+// padding-left:13px;
+// padding-right:27px;
+// }
+
 .filterFonctionnementTitle{
   font-size:17px;
   margin-top:15px;
@@ -702,6 +767,7 @@ background:linear-gradient(to bottom, #FF79DA, #9356DC)
 
   .filterTitle{
     width:85%;
+    background-color: red;
   }
 
   .filterFonctionnementTitle{
