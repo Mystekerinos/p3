@@ -294,23 +294,35 @@ font-size:19px;
 
 
   background-color: rgb(31, 224, 14);
+
+  box-shadow: 2px 8px 0px #ede8e8;
+
+  border-radius: 10px;
+
+  height: 75px;
   
   
 }
 
 #front{
 
- position:relative;
+  position:absolute;
 
-  box-shadow: 2px 8px 0px #ede8e8;
-background-color: white;
-
- border-radius: 10px;
- 
-font-size:12px;
-bottom:18px;
- padding-left:13px;
-padding-right:27px;
+  background-color: white;
+  
+   
+  
+  height: 100%;
+  
+  top: 0;
+  
+  left: 0;
+  
+  height: 75px;
+  
+  transition: width 3s ease-in-out;
+  
+  width: 100%;
 
 }
 
