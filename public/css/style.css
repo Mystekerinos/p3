@@ -192,9 +192,8 @@ header {
 }
 
 .checkValidation {
-  padding-left: 93.5%;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  padding-right: 4%;
+  color: white;
 }
 
 .headTitle {
@@ -254,7 +253,10 @@ header {
   border-radius: 15px 15px 15px 15px;
   background-color: #99E2D0;
   box-shadow: 2px 8px 0px #ede8e8;
-  height: 75px;
+  min-height: 75px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 #front {
@@ -583,6 +585,9 @@ footer {
     cursor: pointer;
     border-radius: 0 10px 10px 0;
   }
+  .checkValidation {
+    padding-right: 5%;
+  }
   .bodyBackground {
     background-color: #f3f3f3;
     border-radius: 0;
@@ -693,6 +698,7 @@ footer {
   }
   .Title2 {
     display: flex;
+    padding-right: 9%;
   }
   .titleLogoAccueil {
     display: flex;
@@ -855,6 +861,9 @@ footer {
     margin-left: 20px;
     padding-left: 27px;
     padding-right: 27px;
+  }
+  .checkValidation {
+    padding-right: 5%;
   }
   .restaurantCard {
     display: flex;
