@@ -191,20 +191,10 @@ header {
   display: none;
 }
 
-.circleCheck:hover .circle-checkA {
-  display: none;
-}
-
-.circleCheck:hover .circle-checkB {
-  display: block;
-  font-size: 1.5em;
-  background: greenyellow;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.circleCheck .circle-checkB {
-  display: none;
+.checkValidation {
+  padding-left: 93.5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .headTitle {
@@ -262,7 +252,7 @@ header {
 
 #back {
   border-radius: 15px 15px 15px 15px;
-  background-color: rgb(31, 224, 14);
+  background-color: #99E2D0;
   box-shadow: 2px 8px 0px #ede8e8;
   height: 75px;
 }

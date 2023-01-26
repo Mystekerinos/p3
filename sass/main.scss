@@ -202,23 +202,31 @@ header{
  
 }
 
+.checkValidation{
+  padding-left:93.5%;
+  padding-top:2%;
+  padding-bottom:1%;
+}
 
-.circleCheck:hover .circle-checkA{
-  display: none;
 
- }
- .circleCheck:hover .circle-checkB{
+
+// .circleCheck:hover .circle-checkB{
+//   display: none;
+//   color:white;
+//  }
+//  .circleCheck:hover .circle-checkA{
    
-   display: block;
-   font-size:1.5em;
-   background: greenyellow;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
- }
- .circleCheck .circle-checkB{
-  display: none;
+//    display: block;
+//    font-size:1.5em;
+//    color:white;
+//    background: rgb(247, 248, 246);
+//    -webkit-background-clip: text;
+//    -webkit-text-fill-color: transparent;
+//  }
+//  .circleCheck .circle-checkB{
+//   display: none;
   
- }
+//  }
 
 
 
@@ -294,7 +302,7 @@ font-size:19px;
 
 
   border-radius: 15px 15px 15px 15px;
-  background-color: rgb(31, 224, 14);
+  background-color: #99E2D0;
   box-shadow: 2px 8px 0px #ede8e8;
   height: 75px;
   
