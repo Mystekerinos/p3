@@ -16,6 +16,7 @@ body {
   width: 100%;
   min-height: 100%;
   z-index: 10;
+  background-image: url("/images/logo/ohmyfood.png");
   background-color: lightgrey;
   animation: hideLoader 3500ms 1 forwards;
   animation-delay: 1500ms;
@@ -28,6 +29,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-image: url("/images/logo/ohmyfood.png");
   width: 50px;
   height: 50px;
   border: black solid 5px;
@@ -192,7 +194,7 @@ header {
 }
 
 .checkValidation {
-  padding-right: 4%;
+  padding-right: 5%;
   color: white;
 }
 
@@ -586,7 +588,7 @@ footer {
     border-radius: 0 10px 10px 0;
   }
   .checkValidation {
-    padding-right: 5%;
+    padding-right: 6%;
   }
   .bodyBackground {
     background-color: #f3f3f3;
