@@ -151,16 +151,16 @@ header{
     font-size:23px;
     }
 
-.accueilChoose:hover>.filterFonctionnementAccueil {
+.accueilChoose:hover>.touchAccueil {
   color: #9356DC;
   background-color: #eae2f1;
 }
 
-.filterFonctionnementAccueil2 {
+.touchAccueilWord {
   color:black;
 }
 
-.numero{
+.number{
   background-color:#9356DC;
   border-radius: 50%;
   color:#f2f2f2;
@@ -384,7 +384,7 @@ display: flex;
   align-items:center;
 }
 
-.filterFonctionnementAccueil2{
+.touchAccueilWord{
 font-size:16px;
 padding-left:9%;
 }
@@ -529,7 +529,7 @@ padding-right:5%;
 
 
 
-.filterFonctionnementAccueil{
+.touchAccueil{
     display: flex;
 border: 2px solid 	#D3D3D3;
 margin-top: 35px;
@@ -684,7 +684,7 @@ margin-bottom:1px;
      
     }
 
-      .numero{
+      .number{
         padding-right:2px;
         margin-left:-17%;
       }
@@ -732,7 +732,7 @@ margin-bottom:1px;
    padding-bottom:3px;
  }
 
- .filterFonctionnementAccueil{
+ .touchAccueil{
   display: flex;
 border: 2px solid 	#D3D3D3;
 margin-top: 35px;
@@ -941,7 +941,7 @@ color:white;
     font-size:22px;
   }
   
-  .filterFonctionnementAccueil{
+  .touchAccueil{
     display: flex;
   border: 2px solid 	#D3D3D3;
   margin-top: 35px;
@@ -1161,7 +1161,7 @@ color:white;
   
   
   
- .numero{
+ .number{
   margin-left:-30%;
  }
   
@@ -1197,7 +1197,7 @@ color:white;
 
  
   
-  .filterFonctionnementAccueil{
+  .touchAccueil{
     display:flex;
     margin-bottom: 12px;
   }
