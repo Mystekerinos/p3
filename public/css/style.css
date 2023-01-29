@@ -244,7 +244,7 @@ header {
   justify-content: end;
 }
 
-#filterTitleMeal {
+#menuTitle {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
@@ -273,15 +273,15 @@ header {
   width: 100%;
 }
 
-#filterTitleMeal:hover #front {
+#menuTitle:hover #front {
   width: 80%;
 }
 
-.filterTitleMeal:not(:hover) #front {
+.menuTitle:not(:hover) #front {
   width: 100%;
 }
 
-.filterFonctionnementTitle {
+.menuHeadTitle {
   font-size: 17px;
   margin-top: 15px;
   font-weight: bold;
@@ -325,7 +325,7 @@ header {
   min-height: 1300px;
 }
 
-.Title2 {
+.titleRestaurantAndHeart {
   display: flex;
   font-size: 16px;
   font-weight: bold;
@@ -336,7 +336,7 @@ header {
   align-items: center;
 }
 
-.TitleFirst {
+.titleRestaurant {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   display: flex;
   font-size: 25px;
@@ -407,7 +407,7 @@ header {
   position: relative;
 }
 
-.filterRestaurant {
+.orderWord {
   display: flex;
   border-radius: 85px;
   border: 2px solid #D3D3D3;
@@ -421,12 +421,12 @@ header {
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
 
-.commander {
+.order {
   display: flex;
   justify-content: center;
 }
 
-.filterFonctionnementSubTitle {
+.menuSubtitle {
   display: flex;
   font-weight: normal;
   font-size: 13px;
@@ -455,7 +455,7 @@ header {
   color: #000000;
 }
 
-.commander:hover > .filterRestaurant {
+.order:hover > .orderWord {
   color: #0a0b0c;
   background-color: #deebff;
 }
@@ -557,7 +557,7 @@ footer {
     min-height: 50px;
     border-radius: 10px 0 0 10px;
   }
-  .Title2 {
+  .titleRestaurantAndHeart {
     padding-left: 12%;
   }
   .new {
@@ -650,11 +650,11 @@ footer {
     width: 85%;
     background-color: red;
   }
-  .filterFonctionnementTitle {
+  .menuHeadTitle {
     font-size: 20px;
     margin-top: 10px;
   }
-  .filterFonctionnementSubTitle {
+  .menuSubtitle {
     font-size: 19px;
   }
   footer {
@@ -688,7 +688,7 @@ footer {
   .heart1 {
     margin-left: 30px;
   }
-  .TitleFirst {
+  .titleRestaurant {
     display: flex;
     margin-left: 17%;
     font-size: 30px;
@@ -698,7 +698,7 @@ footer {
   .BackgroundColorHead {
     background-color: #f3f3f3;
   }
-  .Title2 {
+  .titleRestaurantAndHeart {
     display: flex;
     padding-right: 9%;
   }
@@ -726,7 +726,7 @@ footer {
     display: flex;
     align-items: center;
   }
-  .subTitle2 {
+  .subtitleRestaurantAndHeart {
     margin-left: 12px;
   }
   .titleLogo {
@@ -738,11 +738,11 @@ footer {
     text-decoration-color: aquamarine;
     font-size: 23px;
   }
-  .filterFonctionnementSubTitle {
+  .menuSubtitle {
     display: flex;
     font-size: 15px;
   }
-  .filterFonctionnementTitle {
+  .menuHeadTitle {
     font-weight: bold;
     margin-top: 13px;
     font-size: 22px;

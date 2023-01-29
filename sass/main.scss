@@ -287,7 +287,7 @@ font-size:19px;
   justify-content: end;
 }
 
-#filterTitleMeal{
+#menuTitle{
   margin-top:10px;
   margin-bottom:10px;
   position: relative;
@@ -334,7 +334,7 @@ font-size:19px;
 
 
 
-#filterTitleMeal:hover #front{
+#menuTitle:hover #front{
 
   width: 80%;
   
@@ -342,7 +342,7 @@ font-size:19px;
 
 
 
-.filterTitleMeal:not(:hover) #front{
+.menuTitle:not(:hover) #front{
 
   width: 100%;
 
@@ -365,7 +365,7 @@ font-size:19px;
 // padding-right:27px;
 // }
 
-.filterFonctionnementTitle{
+.menuHeadTitle{
   font-size:17px;
   margin-top:15px;
   font-weight: bold;
@@ -415,7 +415,7 @@ display: flex;
   
 }
 
-.Title2{
+.titleRestaurantAndHeart{
   display: flex;
   font-size: 16px;
   font-weight:bold;
@@ -426,7 +426,7 @@ display: flex;
   align-items: center;
 }
 
-.TitleFirst{
+.titleRestaurant{
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   display:flex;
   font-size:25px;
@@ -500,7 +500,7 @@ min-height:254px;
 position:relative;
 }
 
-.filterRestaurant {
+.orderWord {
   display: flex;
   border-radius: 85px;
   border: 2px solid 	#D3D3D3;
@@ -514,11 +514,11 @@ position:relative;
   background:linear-gradient(to bottom, #FF79DA, #9356DC)
   }
 
-.commander{
+.order{
   display: flex;
   justify-content: center;
 }
-.filterFonctionnementSubTitle{
+.menuSubtitle{
 display: flex;
 font-weight:normal;
 font-size: 13px;
@@ -550,7 +550,7 @@ background:#f3f3f3;
   color: #000000;
 }
 
-.commander:hover>.filterRestaurant {
+.order:hover>.orderWord {
   color: #0a0b0c;
   background-color: #deebff;
 }
@@ -665,7 +665,7 @@ margin-bottom:1px;
        min-height:50px;
        border-radius: 10px 0 0 10px;
     }
-    .Title2{
+    .titleRestaurantAndHeart{
       padding-left:12%;
     }
 
@@ -793,13 +793,13 @@ background:linear-gradient(to bottom, #FF79DA, #9356DC)
     background-color: red;
   }
 
-  .filterFonctionnementTitle{
+  .menuHeadTitle{
     font-size:20px;
     margin-top:10px;
   }
 
 
-  .filterFonctionnementSubTitle{
+  .menuSubtitle{
     font-size:19px;
   }
 
@@ -864,7 +864,7 @@ color:white;
   .heart1{
     margin-left:30px;
   }
-  .TitleFirst{
+  .titleRestaurant{
     display:flex;
     margin-left:17%;
     font-size:30px;
@@ -879,7 +879,7 @@ color:white;
     background-color: #f3f3f3;
   }
   
-  .Title2{
+  .titleRestaurantAndHeart{
     display:flex;
     padding-right:9%;
   }
@@ -913,7 +913,7 @@ color:white;
       align-items:center;
     }
   
-  .subTitle2 {
+  .subtitleRestaurantAndHeart {
       margin-left:12px;
       
     }
@@ -930,12 +930,12 @@ color:white;
     text-decoration-color: aquamarine;
     font-size:23px;
   }
-  .filterFonctionnementSubTitle{
+  .menuSubtitle{
     display: flex;
     font-size:15px;
   }
   
-  .filterFonctionnementTitle{
+  .menuHeadTitle{
     font-weight: bold;
     margin-top:13px;
     font-size:22px;
