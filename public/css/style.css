@@ -287,7 +287,7 @@ header {
   font-weight: bold;
   margin-bottom: 5px;
   padding-right: 5%;
-  padding-left: 5%;
+  padding-left: 40px;
 }
 
 .heart {
@@ -431,7 +431,7 @@ header {
   font-weight: normal;
   font-size: 13px;
   justify-content: space-between;
-  padding-left: 5%;
+  padding-left: 40px;
   padding-right: 5%;
 }
 
@@ -504,23 +504,6 @@ footer {
   padding-bottom: 2%;
 }
 
-.propose {
-  padding-bottom: 2%;
-}
-
-.devenirMarge {
-  padding-bottom: 2%;
-}
-
-.devenirLinkD {
-  padding-bottom: 2%;
-}
-
-.mentionsLinkD {
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
 .subTitleFooter {
   color: white;
   padding-left: 5%;
@@ -574,18 +557,6 @@ footer {
   .number {
     padding-right: 2px;
     margin-left: -17%;
-  }
-  .searchPadding {
-    padding-left: 20px;
-    width: 230px;
-    font-size: 16px;
-  }
-  .searchButton {
-    min-height: 50px;
-    width: 135px;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
   }
   .checkValidation {
     padding-right: 6%;
@@ -766,18 +737,6 @@ footer {
     justify-content: space-around;
     margin-bottom: 34px;
   }
-  .filterTitle {
-    border: 2px solid #D3D3D3;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    border-radius: 25px;
-    font-size: 12px;
-    width: 65%;
-    min-height: 80px;
-    margin-left: 20px;
-    padding-left: 27px;
-    padding-right: 27px;
-  }
   .bodyBackground {
     background-color: #f3f3f3;
     z-index: inherit;
@@ -793,76 +752,15 @@ footer {
     margin-left: 20px;
     font-weight: bold;
   }
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   #restaurants {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
     min-height: 50px;
   }
-  .filtreMargTitle {
-    font-size: 18px;
-  }
-  .boldText {
-    font-weight: bold;
-  }
-  .cBlue {
-    color: #0065fc;
-  }
-  .cGrey {
-    color: #f2f2f2;
-  }
-  .backBlue {
-    background-color: #0065fc;
-  }
-  .backGrey {
-    background-color: #f2f2f2;
-  }
   .logo {
     margin-bottom: 27px;
     margin-left: 35px;
-  }
-  /*Filter*/
-  .fa-info:before {
-    padding-left: 9px;
-  }
-  .filter {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 23px;
-    padding-left: 40px;
-    border: 2px solid #D3D3D3;
-    border-radius: 25px;
-    width: 10%;
-    min-height: 50px;
-    align-items: center;
-    background: linear-gradient(to bottom, #FF79DA, #9356DC);
-    color: white;
-    margin-left: 580px;
-    margin-bottom: 20px;
-  }
-  .TitleText {
-    color: #000000;
-    margin-left: 4.5px;
-    font-size: small;
-  }
-  .filterItem {
-    display: flex;
-    border: 2px solid #D3D3D3;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    border-radius: 25px;
-    width: auto;
-    min-height: 50px;
-    align-items: center;
-    color: #0065fc;
-    margin-left: 20px;
-    padding-left: 27px;
-    padding-right: 27px;
   }
   .checkValidation {
     padding-right: 5%;
@@ -898,18 +796,8 @@ footer {
     margin-left: 0px;
     padding: 1%;
   }
-  /* icon */
-  .information {
-    display: flex;
-    align-items: center;
-    margin-left: 33px;
-  }
   .number {
     margin-left: -30%;
-  }
-  .restaurantChoose {
-    display: flex;
-    align-items: center;
   }
   .touchAccueil {
     display: flex;
@@ -923,20 +811,10 @@ footer {
   .subtitleCardRestaurant {
     font-size: 12px;
   }
-  .heartAlaFrancaise {
-    margin-left: 27px;
-  }
-  .menuCompose {
-    display: flex;
-    align-items: center;
-  }
   .restaurantGout {
     display: flex;
     align-items: center;
     position: relative;
-  }
-  .titleHeight {
-    min-height: 70px;
   }
   /* footer */
   footer {
@@ -944,7 +822,6 @@ footer {
     flex-direction: column;
     background-color: #000000;
   }
-  /*footer*/
   .subTitleFooter2 {
     margin-left: 8px;
   }
