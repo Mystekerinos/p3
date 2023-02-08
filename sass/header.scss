@@ -10,7 +10,7 @@ header{
 
 /* header Accueil */
 
-.titleLogoAccueil{
+.header_logo{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ header{
 
  /* header accueil */
 
- .backgroundLocation{
+ .header_background_location{
     display: flex;
     justify-content: center;
     align-items:center;
@@ -139,7 +139,7 @@ header{
       }
 
 
-      .titleLogoAccueil{
+      .header_logo{
         display:flex;
         justify-content: center;
         align-items: center;
