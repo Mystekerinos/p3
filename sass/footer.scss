@@ -2,7 +2,7 @@
  /*footer */
 
 
- .subTitleFooter a{
+ .footer_description a{
     text-decoration: none;
     color: inherit;
    }
@@ -26,19 +26,19 @@
     padding-bottom:2%;
     }
     
-.subTitleFooter {
+.footer_description {
     color:white;
     padding-left:5%;
     display:flex;
     align-items: center;
     margin-bottom:1%;
   }
-  .subTitleFooter2{
+  .footer_sub_name{
   margin-left:8px;
   margin-bottom:5px;
   }
   
-  .subTitleFooterOhmyfood{
+  .footer_first_title{
   
   padding-left:5%;
   font-weight: bold;
@@ -61,11 +61,11 @@
         margin-right:0px;
       }
 
-      .subTitleFooter{
+      .footer_description{
         padding-left:40%;
       }
     
-    .subTitleFooterOhmyfood{
+    .footer_first_title{
     padding-left:40%;
     font-weight: bold;
     padding-top:5%;
@@ -85,15 +85,15 @@
         background-color: #000000;
       }
     
-      .subTitleFooter2{
+      .footer_sub_name{
         margin-left:8px;
       }
-      .subTitleFooterOhmyfood{
+      .footer_first_title{
         font-size:23px;
         padding-left:48%;
       }
       
-      .subTitleFooter{
+      .footer_description{
          display: flex;
          align-items: center;
           padding:3px;
