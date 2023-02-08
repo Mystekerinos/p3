@@ -1,0 +1,104 @@
+
+ /*footer */
+
+
+ .subTitleFooter a{
+    text-decoration: none;
+    color: inherit;
+   }
+
+   footer{
+    display: flex;
+    flex-direction: column;
+      background-color: black;
+    min-height:184px;
+    }
+
+
+    
+.footBlocSize{
+    font-size: 14px;
+    min-height:30px;
+    margin-top:0px;
+    margin-left:0px;
+    color:white;
+    padding-left:5%;
+    padding-bottom:2%;
+    }
+    
+.subTitleFooter {
+    color:white;
+    padding-left:5%;
+    display:flex;
+    align-items: center;
+    margin-bottom:1%;
+  }
+  .subTitleFooter2{
+  margin-left:8px;
+  margin-bottom:5px;
+  }
+  
+  .subTitleFooterOhmyfood{
+  
+  padding-left:5%;
+  font-weight: bold;
+  padding-top:5%;
+  
+  font-size:17px;
+  color:white;
+  margin-bottom:1px;
+  }
+  
+    
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    footer{
+        min-height: 235px;
+        margin-left:0px;
+        margin-right:0px;
+      }
+
+      .subTitleFooter{
+        padding-left:40%;
+      }
+    
+    .subTitleFooterOhmyfood{
+    padding-left:40%;
+    font-weight: bold;
+    padding-top:5%;
+    font-size:17px;
+    color:white;
+    
+    }
+}
+
+
+@media screen and (min-width: 992px) {  
+
+  
+    footer {
+        display:flex;
+        flex-direction: column;
+        background-color: #000000;
+      }
+    
+      .subTitleFooter2{
+        margin-left:8px;
+      }
+      .subTitleFooterOhmyfood{
+        font-size:23px;
+        padding-left:48%;
+      }
+      
+      .subTitleFooter{
+         display: flex;
+         align-items: center;
+          padding:3px;
+          padding-left:48%;
+          color:white;
+      }
+
+ }

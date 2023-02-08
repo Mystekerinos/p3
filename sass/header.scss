@@ -1,0 +1,165 @@
+
+header{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+/* header Accueil */
+
+.titleLogoAccueil{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: Shrikhand, Arial, Helvetica, sans-serif;
+    min-height: 60px;
+  }
+
+  .Location{
+    margin-left:12px;
+    font-weight:bold;
+   }
+
+   .BackgroundColorHead{
+    background-color: #f3f3f3;
+    min-height:264px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .titleAccueil{
+        font-size: 23px;
+        text-align: center;
+        padding-top:24px;
+        padding-left:63px;
+        padding-right:60px;
+      }
+
+      .subTitleAccueil{ 
+        font-size: 20px;
+        text-align: center;
+        font-weight: inherit;
+        padding-bottom:14px;
+      }
+  
+
+      .buttonAccueil {
+        display: flex;
+        border: 2px solid 	#D3D3D3;
+        border-radius: 85px;
+        justify-content: center;
+        min-height: 50px;
+        align-items: center;
+        font-size:18px;
+        color:white;
+        margin-bottom: 54px;
+        padding-left:20px;
+        padding-right:20px;
+        background:linear-gradient(to bottom, #FF79DA, #9356DC)
+        }
+
+        .buttonAccueil:hover>.nameButton {
+  
+            color: #000000;
+          }
+          
+          /* header Restaurant */
+
+          .titleLogo {
+            display: flex;
+            justify-content: space-between;
+            padding-left:5%;
+            padding-right:30%;
+            align-items:center;
+          }
+          
+          
+   .arrow{
+    text-decoration: none;
+  color: black;
+   }
+
+          
+.ImageTitle{
+  min-height:233px;
+  width:100%;
+  }
+
+  
+.headTitle{
+  display: flex;
+  flex-direction: column;
+}
+
+          
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+
+ }
+
+ /* header accueil */
+
+ .backgroundLocation{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(233, 230, 230);
+    height: 50px;
+  }
+
+
+  /* header restaurant */
+
+  .titleLogo {
+    padding-right:40%;    
+  }
+
+
+@media screen and (min-width: 992px) { 
+
+
+  /* header accueil*/
+
+
+      .logo {
+        margin-bottom: 27px;
+        margin-left: 35px;
+      }
+
+
+      .BackgroundColorHead{
+        background-color: #f3f3f3;
+      }
+
+
+      .titleLogoAccueil{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      /* header restaurant*/
+
+
+      .titleLogo {   
+        padding-right:40%; 
+      }
+
+      .ImageTitle{
+        min-height:300px;
+        width:250px;
+      }
+
+      .headTitle{
+        display: flex;
+      }
+
+ }

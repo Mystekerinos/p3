@@ -1,0 +1,105 @@
+
+
+/* animaton accueil */
+
+.accueilLoading
+
+{
+
+  display: flex;
+
+  position: fixed;
+
+  width: 100%;
+
+  min-height: 100%;
+
+  z-index: 10;
+
+  background-image: url("/images/logo/ohmyfood.png");
+
+  background-color: lightgrey;
+
+  animation: hideLoader 3500ms 1 forwards;
+
+  animation-delay: 1500ms;
+
+  left:0;  
+
+  align-items:center;
+
+  justify-content:center;
+
+}
+
+@for $i from 1 through 8 {
+
+  .accueilLoading svg :nth-child(#{$i}) {
+
+    animation-name: rotation;
+
+    animation-duration: 0.7s;
+
+    animation-delay: #{$i - 1}s;
+
+    animation-fill-mode: forwards;
+
+    opacity:0;      
+
+  }
+
+}
+
+
+
+
+
+// .accueilLoading svg > path{
+
+//   animation: rotation 1.7s 1 linear;
+
+//   }
+
+
+
+@keyframes rotation {
+
+from {
+
+  transform: translateX(75%);
+
+  opacity:0,5;
+
+ 
+
+}
+
+to {
+
+  transform: translateX(0%);
+
+  opacity:1;
+
+}
+
+}
+
+
+
+
+.heart:hover .heartA{
+    display: none;
+   }
+   .heart:hover .heartB{
+     
+     display: block;
+     font-size:1.5em;
+     background: linear-gradient(to bottom, #FF79DA, #9356DC);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+   .heart .heartB{
+    display: none;
+    
+   }
+   
