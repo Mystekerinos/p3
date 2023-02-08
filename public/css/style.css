@@ -237,7 +237,7 @@ header {
   min-height: 60px;
 }
 
-.Location {
+.header_accueil_location {
   margin-left: 12px;
   font-weight: bold;
 }
@@ -250,7 +250,7 @@ header {
   flex-direction: column;
 }
 
-.titleAccueil {
+.header_accueil_description_first {
   font-size: 23px;
   text-align: center;
   padding-top: 24px;
@@ -258,14 +258,14 @@ header {
   padding-right: 60px;
 }
 
-.subTitleAccueil {
+.header_accueil_description_sub {
   font-size: 20px;
   text-align: center;
   font-weight: inherit;
   padding-bottom: 14px;
 }
 
-.buttonAccueil {
+.accueil_button {
   display: flex;
   border: 2px solid #D3D3D3;
   border-radius: 85px;
@@ -280,12 +280,12 @@ header {
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
 
-.buttonAccueil:hover > .nameButton {
+.accueil_button:hover > .accueil_button_name {
   color: #000000;
 }
 
 /* header Restaurant */
-.titleLogo {
+.header_logo {
   display: flex;
   justify-content: space-between;
   padding-left: 5%;
@@ -293,17 +293,17 @@ header {
   align-items: center;
 }
 
-.arrow {
+.header_logo_arrow {
   text-decoration: none;
   color: black;
 }
 
-.ImageTitle {
+.head_title_image {
   min-height: 233px;
   width: 100%;
 }
 
-.headTitle {
+.head_title {
   display: flex;
   flex-direction: column;
 }
@@ -340,11 +340,11 @@ header {
   .titleLogo {
     padding-right: 40%;
   }
-  .ImageTitle {
+  .head_title_image {
     min-height: 300px;
     width: 250px;
   }
-  .headTitle {
+  .head_title {
     display: flex;
   }
 }
@@ -452,7 +452,7 @@ header {
   width: 100%;
 }
 
-.menuHeadTitle {
+.menuhead_title {
   font-size: 17px;
   margin-top: 15px;
   font-weight: bold;
@@ -652,7 +652,7 @@ header {
   .checkValidation {
     padding-right: 6%;
   }
-  .menuHeadTitle {
+  .menuhead_title {
     font-size: 20px;
     margin-top: 10px;
   }
@@ -734,7 +734,7 @@ header {
   .checkValidation {
     padding-right: 5%;
   }
-  .menuHeadTitle {
+  .menuhead_title {
     font-weight: bold;
     margin-top: 13px;
     font-size: 22px;
