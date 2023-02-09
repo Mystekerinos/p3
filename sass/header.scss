@@ -10,11 +10,12 @@ header{
 
 /* header Accueil */
 
-.header_logo{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+.header_accueil_logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
   .logo {
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
@@ -26,7 +27,7 @@ header{
     font-weight:bold;
    }
 
-   .BackgroundColorHead{
+   .header_accueil_background_description{
     background-color: #f3f3f3;
     min-height:264px;
     display:flex;
@@ -72,7 +73,7 @@ header{
           
           /* header Restaurant */
 
-          .header_logo {
+          .header_restaurant_logo {
             display: flex;
             justify-content: space-between;
             padding-left:5%;
@@ -81,7 +82,7 @@ header{
           }
           
           
-   .header_logo_arrow{
+   .header_restaurant_logo_arrow{
     text-decoration: none;
   color: black;
    }
@@ -106,7 +107,7 @@ header{
 
  /* header accueil */
 
- .header_background_location{
+ .header_accueil_background_location{
     display: flex;
     justify-content: center;
     align-items:center;
@@ -117,7 +118,7 @@ header{
 
   /* header restaurant */
 
-  .titleLogo {
+  .header_restaurant_logo {
     padding-right:40%;    
   }
 
@@ -134,22 +135,20 @@ header{
       }
 
 
-      .BackgroundColorHead{
+     
+
+      .header_accueil_background_description{
         background-color: #f3f3f3;
       }
 
 
-      .header_logo{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-      }
+   
 
 
       /* header restaurant*/
 
 
-      .titleLogo {   
+      .header_restaurant_logo {   
         padding-right:40%; 
       }
 

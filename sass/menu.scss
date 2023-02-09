@@ -21,18 +21,8 @@
   }
 
 
-  .restaurant_title{
-    font-family: Shrikhand, Arial, Helvetica, sans-serif;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left:10px;
-    padding-top:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-    font-size:25px;
-    font-weight:bold;
-  }
+  
+  
 
   .backgroundOrder{
     display: flex;
@@ -160,10 +150,18 @@
 /* Menu accueil */
 
 
-  .fonctionnement_Title{
-    margin-left:23px;
-    font-size:23px;
-    }
+.fonctionnement_title{
+  margin-left:23px;
+  font-size:23px;
+  }
+
+.restaurant_title{
+  padding-left:4%;
+  padding-right:4%;
+  font-size:23px;
+  }
+
+  
 
     #fonctionnement{
       display:inherit;
@@ -174,7 +172,7 @@
 
 
 
-      .accueilChoose:hover>.filter {
+      .filter_select:hover>.filter {
         color: #9356DC;
         background-color: #eae2f1;
       }
@@ -464,6 +462,8 @@
           display:flex;
           justify-content: space-around;
           margin-bottom:34px;
+          padding-left: 0%;
+          padding-right:0%
         }
 
         .filter{
@@ -480,7 +480,6 @@
         margin-bottom: 12px;
         border-radius: 25px;
         font-weight:bold;
-        width: 17%;
         min-height: 50px;
         align-items: center;
         padding-left:47px;
@@ -490,7 +489,11 @@
         }
 
         .filter_number{
-          margin-left:-30%;
+          display:none;
+         }
+
+         .filter_word{
+          padding-left: 0%;
          }
 
          #restaurants{
