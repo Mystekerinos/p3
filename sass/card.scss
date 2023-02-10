@@ -1,0 +1,56 @@
+
+#container-restaurants-cards{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    padding:15px;
+}
+
+.restaurants-cards{
+    display:block;
+    box-shadow:2px 0px 5px -1px rgba(0,0,0,0.75); 
+    border-radius:5px;
+    height:350px;
+   
+}
+
+.restaurants-cards img {
+    border-radius:5px 5px 0px 0px ;
+    width:100%;
+    object-fit: cover;
+    height: 70%;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #container-restaurants-cards{ 
+        flex-wrap:wrap;
+        flex-direction: inherit;
+    }
+    .restaurants-cards{
+        width:calc( (100% / 2) - (15px / 2) );
+        
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 992px) { 
+
+#container-restaurants-cards{
+    flex-direction: row;
+}
+
+
+.restaurants-cards{
+    width:calc( (100% / 4) - (45px / 4) );
+    
+}
+
+
+
+}
