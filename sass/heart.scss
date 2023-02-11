@@ -1,5 +1,17 @@
 /* Heart */
 
+.heart{
+  position: absolute;
+  right:15px;
+  bottom:33px;
+}
+.restaurant_title_and_heart .heart{
+  position:absolute;
+  right:8%;
+  bottom:8px;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
 }
@@ -7,8 +19,6 @@
 
 
 @media screen and (min-width: 992px) { 
-    .heartTitle{
-        margin-left:30px;
-      }
+    
 
 }

@@ -1,24 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "heart.scss";
 
 #container-restaurants-cards{
     display:flex;
     flex-direction: column;
-    gap:15px;
+    gap:35px;
     padding:15px;
+    margin-bottom:47px;
 }
 
 .restaurants-cards{
     display:block;
-    box-shadow:2px 0px 5px -1px rgba(0,0,0,0.75); 
-    border-radius:5px;
-    height:350px;
+    box-shadow:2px 2px 2px 1px rgba(0,0,0,0.75); 
+    border-radius:23px 23px 23px 23px;
+    height:250px;
+    width:96%;
+    position:relative;
+    text-decoration: none;
+    color: #000000;
    
 }
 
 .restaurants-cards img {
-    border-radius:5px 5px 0px 0px ;
+    border-radius:23px 23px 0px 0px ;
     width:100%;
     object-fit: cover;
-    height: 70%;
+    height: 67%;
+}
+
+.restaurants-cards h4 {
+   margin-left:15px;
+   margin-top:15px;
+}
+
+.restaurants-cards p {
+    margin-left:15px;
+    margin-top: -15px; 
+    font-size: 1.02rem;
 }
 
 
@@ -29,7 +47,7 @@
         flex-direction: inherit;
     }
     .restaurants-cards{
-        width:calc( (100% / 2) - (15px / 2) );
+        width:calc( (100% / 2) - (35px / 2) );
         
     }
 
@@ -47,7 +65,7 @@
 
 
 .restaurants-cards{
-    width:calc( (100% / 4) - (45px / 4) );
+    width:calc( (100% / 4) - (65px / 4) );
     
 }
 
