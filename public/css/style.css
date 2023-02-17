@@ -450,13 +450,12 @@ header {
   flex-direction: column;
 }
 
-.subTitlePage {
-  font-size: 17px;
-  margin-top: 30px;
-  text-underline-offset: 0.6em;
-  text-decoration: underline;
-  text-decoration-color: aquamarine;
-  padding-left: 5%;
+span {
+  display: block;
+  height: 3px;
+  width: 40px;
+  background: aquamarine;
+  margin-top: -10px;
 }
 
 .menuPart {
@@ -648,9 +647,6 @@ header {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Menu Restaurant */
-  .subTitlePage {
-    font-size: 16px;
-  }
   .checkValidation {
     padding-right: 6%;
   }
@@ -707,12 +703,6 @@ header {
 }
 @media screen and (min-width: 992px) {
   /* Menu Restaurant */
-  .subTitlePage {
-    margin-top: 24px;
-    text-decoration: underline;
-    text-decoration-color: aquamarine;
-    font-size: 23px;
-  }
   .menuPart {
     margin-top: 10px;
     display: flex;
