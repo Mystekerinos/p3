@@ -124,26 +124,28 @@
 
 
     
-.order:hover>.orderWord {
-  color: #0a0b0c;
-  background-color: #deebff;
-}
-
-
-
-.orderWord {
-  display: flex;
-  border-radius: 85px;
-  border: 2px solid 	#D3D3D3;
-  justify-content: center;
-  min-height: 50px;
-  align-items: center;
-  margin-bottom: 10%;
-  color:white;
-  padding-left:50px;
-  padding-right:50px;
-  background:linear-gradient(to bottom, #FF79DA, #9356DC)
-  }
+    .menu_order {
+      display: flex;
+      border-radius: 85px;
+      border: 2px solid 	#D3D3D3;
+      justify-content: center;
+      min-height: 50px;
+      align-items: center;
+      margin-bottom: 10%;
+      color:white;
+      padding-left:50px;
+      padding-right:50px;
+      background:linear-gradient(to bottom, #FF79DA, #9356DC);
+      border:none;
+      outline:none;
+      filter:brightness(0.7);
+      transition:filter ease 0.5s;
+      cursor:pointer;
+      }
+    
+      .menu_order:hover {
+        filter:brightness(1);
+      }
 
 /* Menu accueil */
 

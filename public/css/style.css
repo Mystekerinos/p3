@@ -334,7 +334,7 @@ header {
   padding-bottom: 14px;
 }
 
-.accueil_button {
+.header_accueil_button {
   display: flex;
   border: 2px solid #D3D3D3;
   border-radius: 85px;
@@ -346,11 +346,15 @@ header {
   margin-bottom: 54px;
   padding-left: 20px;
   padding-right: 20px;
+  outline: none;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  filter: brightness(0.7);
+  transition: filter ease 0.5s;
+  cursor: pointer;
 }
 
-.accueil_button:hover > .accueil_button_name {
-  color: #000000;
+.header_accueil_button:hover {
+  filter: brightness(1);
 }
 
 /* header Restaurant */
@@ -538,12 +542,7 @@ header {
   justify-content: center;
 }
 
-.order:hover > .orderWord {
-  color: #0a0b0c;
-  background-color: #deebff;
-}
-
-.orderWord {
+.menu_order {
   display: flex;
   border-radius: 85px;
   border: 2px solid #D3D3D3;
@@ -555,6 +554,15 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  border: none;
+  outline: none;
+  filter: brightness(0.7);
+  transition: filter ease 0.5s;
+  cursor: pointer;
+}
+
+.menu_order:hover {
+  filter: brightness(1);
 }
 
 /* Menu accueil */
