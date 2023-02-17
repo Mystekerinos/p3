@@ -1,3 +1,5 @@
+
+
 /* Menu Restaurant */
 
 .bodyBackground{
@@ -35,7 +37,7 @@
     margin-top:-10px;
     }
     
-    .menuPart{
+    .menu{
       margin-top: 10px;
       display:flex;
       flex-direction: column;
@@ -43,30 +45,33 @@
       align-items: center;
       }
 
-      #menuTitle{
-        margin-top:10px;
-        margin-bottom:10px;
-        position: relative;
-         width: 90%;
-      }
-
-      #menuTitle:hover #front{
-        width: 80%;  
-      }
+      *, *::before, *::after{
+  
+        box-sizing:border-box;
+        
       
-      .menuTitle:not(:hover) #front{
-        width: 100%;
-      }
+    }
+    
+    .menu_card{
+      
+        background:#ffffff;
+        border-radius:10px;
+        padding:15px;
+        padding-top:30px;
+        width:300px;
+        text-align:center;
+        margin:0 auto;
+        margin-top:10px;
+        height:75px;
+        animation-duration:1s;
+        animation-timing-function:ease-in-out;
+        animation-name:slideIn;
+      
+    }
 
-      #back{
-        border-radius: 15px 15px 15px 15px;
-        background-color: #99E2D0;
-        box-shadow: 2px 8px 0px #ede8e8;
-        min-height: 75px;
-        display:flex;
-        justify-content: end;
-        align-items: center;
-      }
+    
+
+    
 
       
 .checkValidation{
@@ -74,20 +79,9 @@
   color:white;
 }
 
-#front{
-  position:absolute;
-  background-color: white;
-  border-radius: 15px 15px 15px 15px; 
-  height: 100%; 
-  top: 0;  
-  left: 0; 
-  height: 75px;
-  transition: width 3s ease-in-out; 
-  width: 100%;
 
-}
 
-.menuhead_title{
+.menu_card_title{
   font-size:17px;
   margin-top:15px;
   font-weight: bold;
@@ -97,7 +91,7 @@
 }
       
 
-.menuSubtitle{
+.menu_card_description{
   display: flex;
   font-weight:normal;
   font-size: 13px;
@@ -106,13 +100,13 @@
   padding-right:5%;
   }
 
-  .subTitle {
+  .menu_card_subtitle {
     display: flex;
     justify-content: center;
     align-items:center;
   }
 
-  .price{
+  .menu_card_price{
     font-weight:bold;
     }
    
@@ -269,12 +263,12 @@
           padding-right:6%;
         }
 
-        .menuhead_title{
+        .menu_card_title{
           font-size:20px;
           margin-top:10px;
         }
 
-        .menuSubtitle{
+        .menu_card_description{
           font-size:19px;
         }
 
@@ -341,7 +335,7 @@
 
       
 
-        .menuPart{
+        .menu{
           margin-top: 10px;
           display:flex;
           width:100%;
@@ -359,17 +353,17 @@
           font-size:22px;
         }
 
-        .menuSubtitle{
+        .menu_card_description{
           display: flex;
           font-size:15px;
         }
 
-        .subTitle {
+        .menu_card_subtitle {
           display: flex;
           align-items:center;
         }
 
-        .price{
+        .menu_card_price{
           margin-left:20px;
           font-weight: bold;
         }

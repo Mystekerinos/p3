@@ -91,6 +91,16 @@
     opacity: 1;
   }
 }
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 15px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
 .heart:hover .heartA {
   display: none;
 }
@@ -458,7 +468,7 @@ span {
   margin-top: -10px;
 }
 
-.menuPart {
+.menu {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -466,29 +476,23 @@ span {
   align-items: center;
 }
 
-#menuTitle {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.menu_card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 30px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 10px;
-  position: relative;
-  width: 90%;
-}
-
-#menuTitle:hover #front {
-  width: 80%;
-}
-
-.menuTitle:not(:hover) #front {
-  width: 100%;
-}
-
-#back {
-  border-radius: 15px 15px 15px 15px;
-  background-color: #99E2D0;
-  box-shadow: 2px 8px 0px #ede8e8;
-  min-height: 75px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  height: 75px;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideIn;
 }
 
 .checkValidation {
@@ -496,19 +500,7 @@ span {
   color: white;
 }
 
-#front {
-  position: absolute;
-  background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  height: 75px;
-  transition: width 3s ease-in-out;
-  width: 100%;
-}
-
-.menuhead_title {
+.menu_card_title {
   font-size: 17px;
   margin-top: 15px;
   font-weight: bold;
@@ -517,7 +509,7 @@ span {
   padding-left: 40px;
 }
 
-.menuSubtitle {
+.menu_card_description {
   display: flex;
   font-weight: normal;
   font-size: 13px;
@@ -526,13 +518,13 @@ span {
   padding-right: 5%;
 }
 
-.subTitle {
+.menu_card_subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.price {
+.menu_card_price {
   font-weight: bold;
 }
 
@@ -650,11 +642,11 @@ span {
   .checkValidation {
     padding-right: 6%;
   }
-  .menuhead_title {
+  .menu_card_title {
     font-size: 20px;
     margin-top: 10px;
   }
-  .menuSubtitle {
+  .menu_card_description {
     font-size: 19px;
   }
   /* Menu Accueil */
@@ -703,7 +695,7 @@ span {
 }
 @media screen and (min-width: 992px) {
   /* Menu Restaurant */
-  .menuPart {
+  .menu {
     margin-top: 10px;
     display: flex;
     width: 100%;
@@ -718,15 +710,15 @@ span {
     margin-top: 13px;
     font-size: 22px;
   }
-  .menuSubtitle {
+  .menu_card_description {
     display: flex;
     font-size: 15px;
   }
-  .subTitle {
+  .menu_card_subtitle {
     display: flex;
     align-items: center;
   }
-  .price {
+  .menu_card_price {
     margin-left: 20px;
     font-weight: bold;
   }
