@@ -103,7 +103,35 @@ to {
 
 }
 
+.menu_card .menu_card_description{
+  
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+  transition:width ease 0.7s;
 
+}
+
+.menu_card:hover .menu_card_description{
+
+  width:calc(100% - 70px);
+
+}
+
+.menu_card div i{
+
+  width:25px;
+  height:25px;
+  display:inline-block;
+  transition:transform ease 0.5s;
+
+}
+
+.menu_card:hover i{
+
+   transform:rotate(360deg);
+
+}
 
 
 .heart:hover .heartA{

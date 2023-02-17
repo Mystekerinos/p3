@@ -52,27 +52,12 @@
       
     }
     
-    .menu_card{
-      
-        background:#ffffff;
-        border-radius:10px;
-        padding:15px;
-        padding-top:30px;
-        width:300px;
-        text-align:center;
-        margin:0 auto;
-        margin-top:10px;
-        height:75px;
-        animation-duration:1s;
-        animation-timing-function:ease-in-out;
-        animation-name:slideIn;
-      
-    }
+   
 
     
     .menu_card{
       width:300px;
-      background:#eeeeee;
+      background:#ffffff;
       padding:15px;
       border-radius:5px;
       margin:0 auto;
@@ -82,7 +67,7 @@
   
 }
 
-.menu_card div{
+.menu_card i{
   
     position:absolute;
     top:0;
@@ -97,7 +82,7 @@
     overflow:hidden;
 }
 
-.menu_card:hover div{
+.menu_card:hover i{
   
     width:75px;
   
@@ -106,10 +91,7 @@
     
 
       
-.checkValidation{
-  padding-right:5%;
-  color:white;
-}
+
 
 
 
@@ -291,9 +273,7 @@
 
 
 
-        .checkValidation{
-          padding-right:6%;
-        }
+       
 
        
 
@@ -370,10 +350,6 @@
           width:100%;
           flex-direction: inherit;
           justify-content: space-between;
-        }
-
-        .checkValidation{
-          padding-right:5%;
         }
 
         .menuhead_title{
