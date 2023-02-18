@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 /* animaton accueil */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .accueilLoading {
@@ -201,7 +200,7 @@ body {
 
 .restaurants-cards {
   display: block;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);
   border-radius: 23px 23px 23px 23px;
   height: 250px;
   width: 96%;
@@ -379,6 +378,7 @@ header {
   display: flex;
   border: 2px solid #D3D3D3;
   border-radius: 85px;
+  box-shadow: 1px 1px 1px 1px;
   justify-content: center;
   min-height: 50px;
   align-items: center;
@@ -457,10 +457,6 @@ header {
   .header_restaurant_logo {
     padding-right: 40%;
   }
-  .head_title_image {
-    min-height: 300px;
-    width: 250px;
-  }
   .head_title {
     display: flex;
   }
@@ -491,7 +487,7 @@ header {
   flex-direction: column;
 }
 
-span {
+h3 span {
   display: block;
   height: 3px;
   width: 40px;
@@ -573,6 +569,7 @@ span {
   border-radius: 85px;
   border: 2px solid #D3D3D3;
   justify-content: center;
+  box-shadow: 1px 1px 1px 1px;
   min-height: 50px;
   align-items: center;
   margin-bottom: 10%;
@@ -613,7 +610,6 @@ button {
   border: none;
   padding: 15px;
   border-radius: 20px;
-  background: #f3f3f3;
   width: 250px;
   margin: 0 auto;
   margin-top: 20px;
@@ -622,7 +618,7 @@ button {
   position: relative;
 }
 
-button path {
+button svg {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -630,7 +626,7 @@ button path {
   margin-right: 10px;
 }
 
-button div:last-child {
+button span:last-child {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -647,6 +643,10 @@ button div:last-child {
 
 button:hover {
   background: #f3e5f5;
+}
+
+button:hover svg path {
+  fill: #6a1b9a;
 }
 
 #container_restaurants_cards {
@@ -728,11 +728,6 @@ button:hover {
   .menu_card_price {
     margin-left: 20px;
     font-weight: bold;
-  }
-  .bodyBackground {
-    background-color: #f3f3f3;
-    z-index: inherit;
-    position: inherit;
   }
   /* Menu Accueil */
   #fonctionnement {
