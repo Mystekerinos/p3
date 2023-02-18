@@ -29,7 +29,7 @@
     flex-direction: column;
   }
 
-  span{
+  h3 span{
     display:block;
     height:3px;
     width:40px;
@@ -203,7 +203,7 @@
     position:relative;
 }
 
-button svg{
+button svg {
   
     display:inline-block;
     width:18px;
@@ -212,6 +212,7 @@ button svg{
     margin-right:10px;
   
 }
+
 
 button span:last-child{
     display:inline-block;
