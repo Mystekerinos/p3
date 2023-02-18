@@ -29,7 +29,7 @@
     flex-direction: column;
   }
 
-  h3 span{
+  h3 + span{
     display:block;
     height:3px;
     width:40px;
@@ -37,91 +37,74 @@
     margin-top:-10px;
     }
     
-    .menu{
-      margin-top: 10px;
-      display:flex;
-      flex-direction: column;
-      margin-bottom:53px;
-      align-items: center;
-      }
+
 
       *, *::before, *::after{
   
         box-sizing:border-box;
-        
+      
+    }
+    .backgroundOrder .card{
+          width:300px;
+          background:#eeeeee;
+          padding:15px;
+          border-radius:5px;
+          margin:0 auto;
+          margin-top:50px;
+          height:75px;
+          position:relative;
       
     }
     
-   
-
-    
-    .menu_card{
-      width:300px;
-      background:#ffffff;
-      padding:15px;
-      border-radius:5px;
-      margin:0 auto;
-      margin-top:50px;
-      height:75px;
-      position:relative;
-  
-}
-
-.menu_card div{
-  
-    position:absolute;
-    top:0;
-    right:0;
-    width:0px;
-    height:75px;
-    border-radius:5px 0 0 5px;
-    background:#009688;
-    transition:width ease 0.5s;
-    text-align:center;
-    padding-top:27px;
-    overflow:hidden;
-}
-
-.menu_card:hover div{
-  
-    width:75px;
-  
-}
-
-    
-
+    .backgroundOrder .card div{
       
-
-
-
-
-
+        position:absolute;
+        top:0;
+        right:0;
+        width:0px;
+        height:75px;
+        border-radius:5px 0 0 5px;
+        background:#009688;
+        transition:width ease 0.5s;
+        text-align:center;
+        padding-top:27px;
+        overflow:hidden;
+    }
+    
+    .backgroundOrder .card:hover div{
       
-
-.menu_card_description{
-  display: flex;
-  font-weight:normal;
-  font-size: 13px;
-  justify-content: space-between;
-  padding-left:40px;
-  padding-right:5%;
-  }
-
-  .menu_card_subtitle {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-  }
-
-  *, *::before, *::after{
-  
-    box-sizing:border-box;
-  
-}
-
-
-  .menu_card_price{
-    font-weight:bold;
+        width:75px;
+      
+    }
+    
+    .backgroundOrder .card p{
+      
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space: nowrap;
+        transition:width ease 0.7s;
+      
+    }
+    
+    .backgroundOrder .card:hover p{
+      
+        width:calc(100% - 70px);
+      
+    }
+    
+    .backgroundOrder .card div svg{
+      
+        width:25px;
+        height:25px;
+        display:inline-block;
+        transition:transform ease 0.5s;
+      
+    }
+    
+    .backgroundOrder .card:hover svg{
+      
+         transform:rotate(360deg);
+      
     }
    
     .order{
