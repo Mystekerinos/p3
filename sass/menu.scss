@@ -15,14 +15,16 @@
     display: flex;
     align-items: center;
     position:relative;
-    padding-top: 21px;
+    padding-top: 1em;
+    margin-left:1.5em;
+    margin-right:1.5em;
   }
 
   .restaurant_name{
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
     position:relative;
-    font-size:1.5em;
-    padding-left:1em;
+    font-size:1.75em;
+    padding-bottom:0.25em;
   }
 
   .restaurant_title{
@@ -53,7 +55,6 @@
       
     }
     .backgroundOrder .card{
-          width:1010px;
           background:#eeeeee;
           padding:15px;
           border-radius:5px;
@@ -281,7 +282,10 @@ button:hover svg path{
 
     /* Menu Restaurant */
 
-    
+    .restaurant_title_and_heart{
+      margin-left: 30%;
+      margin-right:30%;
+     }
 
    
 
@@ -338,7 +342,10 @@ button:hover svg path{
 
   
 
-  
+     .restaurant_title_and_heart{
+      margin-left: 30%;
+      margin-right:30%;
+     }
 
       
 

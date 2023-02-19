@@ -129,8 +129,8 @@
   position: absolute;
   width: 2rem;
   margin: 0.3rem 0.5rem 0 0;
-  right: 2.5rem;
-  bottom: 3rem;
+  right: 1rem;
+  bottom: 4rem;
   cursor: pointer;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .restaurants__figcaption__like__fullheart {
-  width: 1.5rem;
+  width: 2rem;
   position: absolute;
   opacity: 0;
 }
@@ -478,14 +478,16 @@ header {
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 21px;
+  padding-top: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 .restaurant_name {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   position: relative;
-  font-size: 1.5em;
-  padding-left: 1em;
+  font-size: 1.75em;
+  padding-bottom: 0.25em;
 }
 
 .restaurant_title {
@@ -511,7 +513,6 @@ h3 + span {
 }
 
 .backgroundOrder .card {
-  width: 1010px;
   background: #eeeeee;
   padding: 15px;
   border-radius: 5px;
@@ -675,6 +676,10 @@ button:hover svg path {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Menu Restaurant */
+  .restaurant_title_and_heart {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
   .menu_card_description {
     font-size: 19px;
   }
@@ -707,6 +712,10 @@ button:hover svg path {
 }
 @media screen and (min-width: 992px) {
   /* Menu Restaurant */
+  .restaurant_title_and_heart {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
   .menu {
     margin-top: 10px;
     display: flex;
