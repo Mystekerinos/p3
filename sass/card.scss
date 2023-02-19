@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "heart.scss";
 
-#container-restaurants-cards{
+#container-restaurants-menu_section_cards{
     display:flex;
     flex-direction: column;
     gap:35px;
@@ -9,7 +9,7 @@
     margin-bottom:47px;
 }
 
-.restaurants-cards{
+.restaurants-menu_section_cards{
     display:block;
     box-shadow:1px 1px 1px 1px rgba(0,0,0,0.75); 
     border-radius:23px 23px 23px 23px;
@@ -21,19 +21,19 @@
    
 }
 
-.restaurants-cards img {
+.restaurants-menu_section_cards img {
     border-radius:23px 23px 0px 0px ;
     width:100%;
     object-fit: cover;
     height: 67%;
 }
 
-.restaurants-cards h4 {
+.restaurants-menu_section_cards h4 {
    margin-top: 15px;
    margin-left:15px;
 }
 
-.restaurants-cards p {
+.restaurants-menu_section_cards p {
     margin-left:15px;
     margin-top: -15px; 
     font-size: 1.02rem;
@@ -42,11 +42,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    #container-restaurants-cards{ 
+    #container-restaurants-menu_section_cards{ 
         flex-wrap:wrap;
         flex-direction: inherit;
     }
-    .restaurants-cards{
+    .restaurants-menu_section_cards{
         width:calc( (100% / 2) - (35px / 2) );
         
     }
@@ -59,12 +59,12 @@
 
 @media screen and (min-width: 992px) { 
 
-#container-restaurants-cards{
+#container-restaurants-menu_section_cards{
     flex-direction: row;
 }
 
 
-.restaurants-cards{
+.restaurants-menu_section_cards{
     width:calc( (100% / 4) - (65px / 4) );
     
 }

@@ -60,18 +60,27 @@
         box-sizing:border-box;
       
     }
-    .restaurant_background_order  .card{
-          background:#eeeeee;
-          padding:15px;
-          border-radius:5px;
-          margin:0 auto;
-          margin-top:50px;
-          height:75px;
+
+    #menu_section{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom:53px;
+      align-items: center;
+
+    }
+    .menu_section_card{
+          background-color:white;
+          border-radius: 15px 15px 15px 15px;
+          box-shadow:2px 2px 0px #ede8e8;
+          min-height:75px;
           position:relative;
-      
+         width:90%;
+         margin-bottom: 10px;
+         margin-top:10px;
     }
     
-    .restaurant_background_order  .card div{
+    .menu_section_card div{
       
         position:absolute;
         top:0;
@@ -86,13 +95,13 @@
         overflow:hidden;
     }
     
-    .restaurant_background_order  .card:hover div{
+    .menu_section_card:hover div{
       
         width:75px;
       
     }
     
-    .restaurant_background_order  .card p{
+    .menu_section_card p{
       
         text-overflow:ellipsis;
         overflow:hidden;
@@ -101,13 +110,13 @@
       
     }
     
-    .restaurant_background_order  .card:hover p{
+    .menu_section_card:hover p{
       
         width:calc(100% - 70px);
       
     }
     
-    .restaurant_background_order  .card div svg{
+    .menu_section_card div svg{
       
         width:25px;
         height:25px;
@@ -116,7 +125,7 @@
       
     }
     
-    .restaurant_background_order  .card:hover svg{
+    .menu_section_card:hover svg{
       
          transform:rotate(360deg);
       
@@ -248,7 +257,7 @@ button:hover svg path{
    
 
 
-      #container_restaurants_cards {
+      #container_restaurants_menu_section_cards {
         background-color: #f3f3f3;
          max-width: 1400px;
          padding-right:10px;
@@ -290,7 +299,7 @@ button:hover svg path{
 
    
 
-        .menu_card_description{
+        .menu_menu_section_card_description{
           font-size:19px;
         }
 
@@ -307,7 +316,7 @@ button:hover svg path{
 
 
 
-        #container_restaurants_cards{
+        #container_restaurants_menu_section_cards{
           background-color: #f3f3f3;
           display:flex;
           gap:15px;
@@ -354,17 +363,17 @@ button:hover svg path{
           font-size:22px;
         }
 
-        .menu_card_description{
+        .menu_menu_section_card_description{
           display: flex;
           font-size:15px;
         }
 
-        .menu_card_subtitle {
+        .menu_menu_section_card_subtitle {
           display: flex;
           align-items:center;
         }
 
-        .menu_card_price{
+        .menu_menu_section_card_price{
           margin-left:20px;
           font-weight: bold;
         }
@@ -392,7 +401,7 @@ button:hover svg path{
        
 
 
-         #container_restaurants_cards{
+         #container_restaurants_menu_section_cards{
           display: flex;
           flex-direction: column;
         background-color: #f2f2f2;
@@ -404,7 +413,7 @@ button:hover svg path{
           padding-left:1%;
         }
 
-        .restaurant_card{
+        .restaurant_menu_section_card{
           display: flex;
           justify-content: space-between;
           margin-left: 1%;

@@ -103,7 +103,7 @@ to {
 
 }
 
-.menu_card .menu_card_description{
+.menu_menu_section_card .menu_menu_section_card_description{
   
   text-overflow:ellipsis;
   overflow:hidden;
@@ -112,13 +112,13 @@ to {
 
 }
 
-.menu_card:hover .menu_card_description{
+.menu_menu_section_card:hover .menu_menu_section_card_description{
 
   width:calc(100% - 70px);
 
 }
 
-.menu_card div i{
+.menu_menu_section_card div i{
 
   width:25px;
   height:25px;
@@ -127,7 +127,7 @@ to {
 
 }
 
-.menu_card:hover i{
+.menu_menu_section_card:hover i{
 
    transform:rotate(360deg);
 
