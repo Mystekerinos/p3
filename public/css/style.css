@@ -535,7 +535,25 @@ h3 + span {
   margin-top: 10px;
 }
 
-.menu_section_card div {
+.menu_section_card_title {
+  font-size: 12px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-right: 5%;
+  padding-left: 40px;
+}
+
+.menu_section_card_description {
+  display: flex;
+  font-weight: normal;
+  font-size: 13px;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 5%;
+}
+
+.menu_section_card_svg {
   position: absolute;
   top: 0;
   right: 0;
@@ -549,22 +567,22 @@ h3 + span {
   overflow: hidden;
 }
 
-.menu_section_card:hover div {
+.menu_section_card:hover .menu_section_card_svg {
   width: 75px;
 }
 
-.menu_section_card p {
+.menu_section_meal {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   transition: width ease 0.7s;
 }
 
-.menu_section_card:hover p {
+.menu_section_meal {
   width: calc(100% - 70px);
 }
 
-.menu_section_card div svg {
+.menu_section_card_svg svg {
   width: 25px;
   height: 25px;
   display: inline-block;
