@@ -7,19 +7,27 @@
     border-radius:43px 43px 0 0;
     z-index:1;
     position:relative;
-    margin-top:-55px;
+    margin-top:-48px;
     min-height:1300px;
   }
 
   .restaurant_title_and_heart{
+    display: flex;
+    align-items: center;
     position:relative;
     padding-top: 21px;
+  }
+
+  .restaurant_name{
+    font-family: Shrikhand, Arial, Helvetica, sans-serif;
+    position:relative;
+    font-size:1.5em;
+    padding-left:1em;
   }
 
   .restaurant_title{
     position:relative;
     padding-left: 5%;
-    padding-top: 21px;
   }
   
   
