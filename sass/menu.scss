@@ -81,7 +81,7 @@
     }
     
     .menu_section_card_title{
-      font-size:12px;
+      font-size:17px;
       margin-top:15px;
       font-weight: bold;
       margin-bottom: 5px;
@@ -148,14 +148,14 @@
       
     }
    
-    .order{
-      display: flex;
-      justify-content: center;
-    }
+  
 
-
+   .menu_order{
+    display: flex;
+    justify-content: center;
+   }
     
-    .menu_order {
+    .menu_order_word {
       display: flex;
       border-radius: 85px;
       border: 2px solid 	#D3D3D3;
@@ -175,7 +175,7 @@
       cursor:pointer;
       }
     
-      .menu_order:hover {
+      .menu_order_word:hover {
         filter:brightness(1);
       }
 
