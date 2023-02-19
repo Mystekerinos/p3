@@ -1,7 +1,6 @@
 
 
 /* animaton accueil */
-
 .accueilLoading
 
 {
@@ -54,12 +53,11 @@
 
 
 
-// .accueilLoading svg > path{
+ .accueilLoading svg > path{
 
-//   animation: rotation 1.7s 1 linear;
+  animation: rotation 1.7s 1 linear;
 
-//   }
-
+  }
 
 
 @keyframes rotation {
