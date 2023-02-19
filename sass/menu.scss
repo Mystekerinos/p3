@@ -2,7 +2,7 @@
 
 /* Menu Restaurant */
 
-.bodyBackground{
+.restaurant_body_background{
     background-color: #f3f3f3;
     border-radius:43px 43px 0 0;
     z-index:1;
@@ -10,6 +10,7 @@
     margin-top:-48px;
     min-height:1300px;
   }
+  
 
   .restaurant_title_and_heart{
     display: flex;
@@ -34,9 +35,13 @@
   
   
 
-  .backgroundOrder{
+  .restaurant_background_order {
     display: flex;
     flex-direction: column;
+  }
+
+  .restaurant_background_order{
+    margin-left:1.5em;
   }
 
   h3 + span{
@@ -45,6 +50,7 @@
     width:40px;
     background:aquamarine;
     margin-top:-10px;
+   
     }
     
 
@@ -54,7 +60,7 @@
         box-sizing:border-box;
       
     }
-    .backgroundOrder .card{
+    .restaurant_background_order  .card{
           background:#eeeeee;
           padding:15px;
           border-radius:5px;
@@ -65,7 +71,7 @@
       
     }
     
-    .backgroundOrder .card div{
+    .restaurant_background_order  .card div{
       
         position:absolute;
         top:0;
@@ -80,13 +86,13 @@
         overflow:hidden;
     }
     
-    .backgroundOrder .card:hover div{
+    .restaurant_background_order  .card:hover div{
       
         width:75px;
       
     }
     
-    .backgroundOrder .card p{
+    .restaurant_background_order  .card p{
       
         text-overflow:ellipsis;
         overflow:hidden;
@@ -95,13 +101,13 @@
       
     }
     
-    .backgroundOrder .card:hover p{
+    .restaurant_background_order  .card:hover p{
       
         width:calc(100% - 70px);
       
     }
     
-    .backgroundOrder .card div svg{
+    .restaurant_background_order  .card div svg{
       
         width:25px;
         height:25px;
@@ -110,7 +116,7 @@
       
     }
     
-    .backgroundOrder .card:hover svg{
+    .restaurant_background_order  .card:hover svg{
       
          transform:rotate(360deg);
       
@@ -332,6 +338,7 @@ button:hover svg path{
       margin-right:14.5em;
     }
    
+    
 
         .menu{
           margin-top: 10px;

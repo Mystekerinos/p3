@@ -465,7 +465,7 @@ header {
   }
 }
 /* Menu Restaurant */
-.bodyBackground {
+.restaurant_body_background {
   background-color: #f3f3f3;
   border-radius: 43px 43px 0 0;
   z-index: 1;
@@ -495,9 +495,13 @@ header {
   padding-left: 5%;
 }
 
-.backgroundOrder {
+.restaurant_background_order {
   display: flex;
   flex-direction: column;
+}
+
+.restaurant_background_order {
+  margin-left: 1.5em;
 }
 
 h3 + span {
@@ -512,7 +516,7 @@ h3 + span {
   box-sizing: border-box;
 }
 
-.backgroundOrder .card {
+.restaurant_background_order .card {
   background: #eeeeee;
   padding: 15px;
   border-radius: 5px;
@@ -522,7 +526,7 @@ h3 + span {
   position: relative;
 }
 
-.backgroundOrder .card div {
+.restaurant_background_order .card div {
   position: absolute;
   top: 0;
   right: 0;
@@ -536,29 +540,29 @@ h3 + span {
   overflow: hidden;
 }
 
-.backgroundOrder .card:hover div {
+.restaurant_background_order .card:hover div {
   width: 75px;
 }
 
-.backgroundOrder .card p {
+.restaurant_background_order .card p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   transition: width ease 0.7s;
 }
 
-.backgroundOrder .card:hover p {
+.restaurant_background_order .card:hover p {
   width: calc(100% - 70px);
 }
 
-.backgroundOrder .card div svg {
+.restaurant_background_order .card div svg {
   width: 25px;
   height: 25px;
   display: inline-block;
   transition: transform ease 0.5s;
 }
 
-.backgroundOrder .card:hover svg {
+.restaurant_background_order .card:hover svg {
   transform: rotate(360deg);
 }
 
