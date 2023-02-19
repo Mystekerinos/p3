@@ -125,19 +125,22 @@
 /* heard */
 .restaurantmenu__presentation__title__like,
 .restaurants__figcaption__like {
-  position: relative;
+  display: inline-block;
+  position: absolute;
   width: 2rem;
   margin: 0.3rem 0.5rem 0 0;
+  right: 0.3rem;
+  bottom: 4rem;
   cursor: pointer;
 }
 
 .restaurants__figcaption__like__emptyheart {
-  width: 6rem;
+  width: 2rem;
   position: absolute;
 }
 
 .restaurants__figcaption__like__fullheart {
-  width: 6rem;
+  width: 2rem;
   position: absolute;
   opacity: 0;
 }
@@ -500,7 +503,7 @@ h3 + span {
 }
 
 .backgroundOrder .card {
-  width: 300px;
+  width: 1010px;
   background: #eeeeee;
   padding: 15px;
   border-radius: 5px;
