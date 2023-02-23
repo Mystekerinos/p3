@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@400;700&display=swap");
-/* animaton accueil */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@400;700&display=swap"); /* animaton accueil */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .accueilLoading {
   display: flex;
@@ -167,8 +166,7 @@
   align-items: center;
   justify-content: center;
   background-color: grey;
-  animation-delay: 12500ms;
-  animation: hideLoader 7500ms 1 forwards;
+  animation: hideLoader 12500ms 1 forwards;
 }
 
 @keyframes hideLoader {
@@ -543,7 +541,9 @@ h3 + span {
   margin-top: -10px;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -656,7 +656,7 @@ h3 + span {
 }
 
 /* Menu accueil */
-.fonctionnement_title {
+.homepage_subtitle {
   margin-left: 23px;
   font-size: 23px;
 }

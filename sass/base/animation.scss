@@ -1,9 +1,5 @@
-
-
 /* animaton accueil */
-.accueilLoading
-
-{
+.accueilLoading {
 
   display: flex;
 
@@ -23,11 +19,11 @@
 
   animation-delay: 1500ms;
 
-  left:0;  
+  left: 0;
 
-  align-items:center;
+  align-items: center;
 
-  justify-content:center;
+  justify-content: center;
 
 }
 
@@ -43,7 +39,7 @@
 
     animation-fill-mode: forwards;
 
-    opacity:0;      
+    opacity: 0;
 
   }
 
@@ -53,81 +49,81 @@
 
 
 
- .accueilLoading svg > path{
+.accueilLoading svg>path {
 
   animation: rotation 1.7s 1 linear;
 
-  }
+}
 
 
 @keyframes rotation {
 
-from {
+  from {
 
-  transform: translateX(75%);
+    transform: translateX(75%);
 
-  opacity:0,5;
-
- 
-
-}
-
-to {
-
-  transform: translateX(0%);
-
-  opacity:1;
-
-}
-
-}
+    opacity: 0, 5;
 
 
-@keyframes slideIn{
-  
-  from{
-    
-      opacity:0;
-      transform:translate3d(0, 15px, 0);
-    
+
   }
-  
-  to{
-    
-      opacity:1;
-      transform:translate3d(0,0,0);
-    
+
+  to {
+
+    transform: translateX(0%);
+
+    opacity: 1;
+
   }
 
 }
 
-.menu_menu_section_card .menu_menu_section_card_description{
-  
-  text-overflow:ellipsis;
-  overflow:hidden;
+
+@keyframes slideIn {
+
+  from {
+
+    opacity: 0;
+    transform: translate3d(0, 15px, 0);
+
+  }
+
+  to {
+
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+
+  }
+
+}
+
+.menu_menu_section_card .menu_menu_section_card_description {
+
+  text-overflow: ellipsis;
+  overflow: hidden;
   white-space: nowrap;
-  transition:width ease 0.7s;
+  transition: width ease 0.7s;
 
 }
 
-.menu_menu_section_card:hover .menu_menu_section_card_description{
+.menu_menu_section_card:hover .menu_menu_section_card_description {
 
-  width:calc(100% - 70px);
-
-}
-
-.menu_menu_section_card div i{
-
-  width:25px;
-  height:25px;
-  display:inline-block;
-  transition:transform ease 0.5s;
+  width: calc(100% - 70px);
 
 }
 
-.menu_menu_section_card:hover i{
+.menu_menu_section_card div i {
 
-   transform:rotate(360deg);
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  transition: transform ease 0.5s;
+
+}
+
+.menu_menu_section_card:hover i {
+
+  transform: rotate(360deg);
 
 }
 
@@ -136,12 +132,12 @@ to {
 
 .restaurantmenu__presentation__title__like,
 .restaurants__figcaption__like {
-  display:inline-block;
+  display: inline-block;
   position: absolute;
   width: 2rem;
   margin: 0.3rem 0.5rem 0 0;
-  right:1rem;
-  bottom:3.5rem;
+  right: 1rem;
+  bottom: 3.5rem;
   cursor: pointer;
 }
 
@@ -162,5 +158,3 @@ to {
   opacity: 1;
   transition: 400ms ease-in-out;
 }
-
-   

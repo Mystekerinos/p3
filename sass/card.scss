@@ -1,53 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "heart.scss";
 
-#container-restaurants-menu_section_cards{
-    display:flex;
+#container-restaurants-menu_section_cards {
+    display: flex;
     flex-direction: column;
-    gap:35px;
-    padding:15px;
-    margin-bottom:47px;
+    gap: 35px;
+    padding: 15px;
+    margin-bottom: 47px;
 }
 
-.restaurants-menu_section_cards{
-    display:block;
-    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.75); 
-    border-radius:23px 23px 23px 23px;
-    height:250px;
-    width:96%;
-    position:relative;
+.restaurants-menu_section_cards {
+    display: block;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 23px 23px 23px 23px;
+    height: 250px;
+    width: 96%;
+    position: relative;
     text-decoration: none;
     color: #000000;
-   
+
 }
 
 .restaurants-menu_section_cards img {
-    border-radius:23px 23px 0px 0px ;
-    width:100%;
+    border-radius: 23px 23px 0px 0px;
+    width: 100%;
     object-fit: cover;
     height: 67%;
 }
 
 .restaurants-menu_section_cards h4 {
-   margin-left:15px;
+    margin-left: 15px;
 }
 
 .restaurants-menu_section_cards p {
-    margin-left:15px;
-    margin-top: -15px; 
+    margin-left: 15px;
+    margin-top: -15px;
     font-size: 1.02rem;
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    #container-restaurants-menu_section_cards{ 
-        flex-wrap:wrap;
+    #container-restaurants-menu_section_cards {
+        flex-wrap: wrap;
         flex-direction: inherit;
     }
-    .restaurants-menu_section_cards{
-        width:calc( (100% / 2) - (35px / 2) );
-        
+
+    .restaurants-menu_section_cards {
+        width: calc((100% / 2) - (35px / 2));
+
     }
 
 }
@@ -56,17 +57,17 @@
 
 
 
-@media screen and (min-width: 992px) { 
+@media screen and (min-width: 992px) {
 
-#container-restaurants-menu_section_cards{
-    flex-direction: row;
-}
+    #container-restaurants-menu_section_cards {
+        flex-direction: row;
+    }
 
 
-.restaurants-menu_section_cards{
-    width:calc( (100% / 4) - (65px / 4) );
-    
-}
+    .restaurants-menu_section_cards {
+        width: calc((100% / 4) - (65px / 4));
+
+    }
 
 
 
