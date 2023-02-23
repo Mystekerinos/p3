@@ -3,7 +3,35 @@
   box-sizing: border-box;
 }
 
+.loading{
+  z-index:2;
+  position:fixed;
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey ;
+  animation-delay: 12500ms;
+  animation: hideLoader 7500ms 1 forwards;
+}
 
+@keyframes hideLoader
+{
+  100%
+  {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes spin
+{
+  100%
+  {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
 
 body{
     font-family: Roboto, Arial, Helvetica, sans-serif; 
@@ -14,30 +42,7 @@ body{
 
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-    body {
-      font-family: Roboto, Arial, Helvetica, sans-serif; 
-      max-width: 2340px;
-      padding-right: 50px;
-      padding-left: 50px;
-      margin-left: auto;
-      margin-right: auto;
-  }
   
    
-  }
+ 
 
-
-@media screen and (min-width: 992px) {
-    body {
-      font-family: Roboto, Arial, Helvetica, sans-serif; 
-      max-width: 1400px;
-      padding-right:50px;
-      padding-left:50px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-  }
-    
