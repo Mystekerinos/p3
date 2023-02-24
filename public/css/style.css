@@ -158,7 +158,7 @@
 }
 
 .loading {
-  z-index: 2;
+  z-index: -1;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -170,9 +170,13 @@
 }
 
 @keyframes hideLoader {
-  100% {
+  from {
+    z-index: 2;
+    opacity: 1;
+  }
+  to {
     opacity: 0;
-    display: none;
+    z-index: -1;
   }
 }
 @keyframes spin {
@@ -343,27 +347,22 @@ header {
 }
 
 /* header Accueil */
-.animate-character {
-  padding: 0px;
-  margin: 0px;
-  text-transform: uppercase;
-  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 190px;
+.circle-animation {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #FF7A59;
+  width: 200px;
+  height: 200px;
+  animation: spinner 1s linear infinite;
 }
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 .header_accueil_logo {
@@ -420,7 +419,7 @@ header {
   padding-right: 20px;
   outline: none;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  filter: brightness(0.7);
+  filter: brightness(0.9);
   transition: filter ease 0.5s;
   cursor: pointer;
 }
