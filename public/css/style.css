@@ -645,7 +645,7 @@ h3 + span {
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
   border: none;
   outline: none;
-  filter: brightness(0.7);
+  filter: brightness(0.9);
   transition: filter ease 0.5s;
   cursor: pointer;
 }
