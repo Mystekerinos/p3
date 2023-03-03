@@ -586,6 +586,17 @@ h3 + span {
   animation-name: slideIn;
 }
 
+.menu_section_meal {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width ease 0.7s;
+}
+
+.menu_section_meal {
+  width: calc(100% - 20px);
+}
+
 .menu_section_card_title {
   font-size: 17px;
   margin-top: 15px;
@@ -605,6 +616,19 @@ h3 + span {
   padding-left: 20px;
 }
 
+.menu_section_card_price {
+  margin-left: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: right;
+  transition: width ease 0.5s;
+  margin-top: -10px;
+}
+
+.menu_section_card_description:hover .menu_section_card_price {
+  width: 150px;
+}
+
 .menu_section_card_svg {
   position: absolute;
   top: 0;
@@ -621,17 +645,6 @@ h3 + span {
 
 .menu_section_card:hover .menu_section_card_svg {
   width: 75px;
-}
-
-.menu_section_meal {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: width ease 0.7s;
-}
-
-.menu_section_meal {
-  width: calc(100% - 20px);
 }
 
 .menu_section_card_svg svg {
@@ -810,17 +823,6 @@ button:hover svg path {
   .menu_menu_section_card_subtitle {
     display: flex;
     align-items: center;
-  }
-  .menu_section_card_price {
-    margin-left: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: right;
-    transition: width ease 0.5s;
-    margin-top: -10px;
-  }
-  .menu_section_card_description:hover .menu_section_card_price {
-    width: 150px;
   }
   /* Menu Accueil */
   #fonctionnement {
