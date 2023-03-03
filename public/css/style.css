@@ -608,6 +608,21 @@ h3 + span {
   overflow: hidden;
 }
 
+.menu_section_card_title_long {
+  font-size: 17px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-right: 5%;
+  padding-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu_section_card .menu_section_card_title_long {
+  transition: width ease 0.5s;
+}
+
 .menu_section_card_description {
   display: flex;
   font-weight: normal;
@@ -616,10 +631,26 @@ h3 + span {
   padding-left: 20px;
 }
 
-.menu_section_card_price {
-  margin-left: 20px;
-  font-weight: bold;
+.menu_section_card .menu_section_card_subtitle_long {
   transition: width ease 0.5s;
+}
+
+.menu_section_card:hover .menu_section_card_title_long {
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu_section_card:hover .menu_section_card_subtitle_long {
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu_section_card_price {
+  font-weight: bold;
 }
 
 .menu_section_card:hover .menu_section_card_price {
@@ -769,9 +800,6 @@ button:hover svg path {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Menu Restaurant */
-  .menu_menu_section_card_description {
-    font-size: 19px;
-  }
   /* Menu Accueil */
   #fonctionnement {
     display: flex;

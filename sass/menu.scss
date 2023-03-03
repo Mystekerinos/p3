@@ -133,6 +133,25 @@ h3+span {
   overflow: hidden;
 }
 
+.menu_section_card_title_long {
+  font-size: 17px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-right: 5%;
+  padding-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+.menu_section_card .menu_section_card_title_long{
+    
+  transition:width ease 0.5s;
+
+}
+
 .menu_section_card_description {
   display: flex;
   font-weight: normal;
@@ -141,11 +160,31 @@ h3+span {
   padding-left: 20px;
 }
 
+.menu_section_card .menu_section_card_subtitle_long{
+    
+  transition:width ease 0.5s;
+
+}
+.menu_section_card:hover .menu_section_card_title_long{
+  width:calc(250px - 90px);
+     text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+
+}
+
+.menu_section_card:hover .menu_section_card_subtitle_long{
+  width:calc(250px - 90px);
+     text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+
+}
 
 .menu_section_card_price {
-    margin-left: 20px;
+    // margin-left: 20px;
     font-weight: bold;
-    transition:width ease 0.5s;
+    
   }
 
   
@@ -358,9 +397,7 @@ button:hover svg path {
 
 
 
-  .menu_menu_section_card_description {
-    font-size: 19px;
-  }
+
 
 
   /* Menu Accueil */
@@ -429,6 +466,7 @@ button:hover svg path {
   }
 
 
+  
 
   /* Menu Accueil */
 
