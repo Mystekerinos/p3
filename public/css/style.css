@@ -188,7 +188,6 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  max-width: 1400px;
 }
 
 /* Heart */
@@ -576,6 +575,8 @@ h3 + span {
   margin-bottom: 5px;
   padding-right: 5%;
   padding-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu_section_card_description {
@@ -772,10 +773,6 @@ button:hover svg path {
 }
 @media screen and (min-width: 992px) {
   /* Menu Restaurant */
-  .restaurant_title_and_heart {
-    margin-left: 14.5em;
-    margin-right: 14.5em;
-  }
   .menu {
     margin-top: 10px;
     display: flex;
