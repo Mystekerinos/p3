@@ -145,14 +145,12 @@ h3+span {
 .menu_section_card_price {
     margin-left: 20px;
     font-weight: bold;
-    width:100%;
-    text-align:right;
     transition:width ease 0.5s;
   }
 
   
-  .menu_section_card_description:hover .menu_section_card_price {
-    width:calc(400px - 100px);
+  .menu_section_card:hover .menu_section_card_price {
+    width:calc(190px - 100px);
   }
 
 .menu_section_card_svg {
@@ -164,7 +162,7 @@ h3+span {
   height: 75px;
   border-radius: 0px 15px 15px 0px;
   background: #009688;
-  transition: width ease 0.5s;
+  transition: transform ease 0.5s;
   text-align: center;
   padding-top: 27px;
   overflow: hidden;
