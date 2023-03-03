@@ -811,9 +811,16 @@ button:hover svg path {
     display: flex;
     align-items: center;
   }
-  .menu_menu_section_card_price {
+  .menu_section_card_price {
     margin-left: 20px;
     font-weight: bold;
+    width: 100%;
+    text-align: right;
+    transition: width ease 0.5s;
+    margin-top: -10px;
+  }
+  .menu_section_card_description:hover .menu_section_card_price {
+    width: 150px;
   }
   /* Menu Accueil */
   #fonctionnement {
