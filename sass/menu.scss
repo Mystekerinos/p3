@@ -148,12 +148,11 @@ h3+span {
     width:100%;
     text-align:right;
     transition:width ease 0.5s;
-    margin-top:-10px;
   }
 
   
   .menu_section_card_description:hover .menu_section_card_price {
-    width:calc(250px - 100px); 
+    width:calc(400px - 100px);
   }
 
 .menu_section_card_svg {
@@ -163,7 +162,7 @@ h3+span {
   right: 0;
   width: 0px;
   height: 75px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 0px 15px 15px 0px;
   background: #009688;
   transition: width ease 0.5s;
   text-align: center;
