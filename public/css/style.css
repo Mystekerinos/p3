@@ -661,7 +661,7 @@ h3 + span {
   height: 75px;
   border-radius: 0px 15px 15px 0px;
   background: #009688;
-  transition: transform 0.7s ease 0.5s;
+  transition: width ease 0.5s;
   text-align: center;
   padding-top: 27px;
   overflow: hidden;
