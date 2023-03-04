@@ -848,6 +848,12 @@ button:hover svg path {
     display: flex;
     align-items: center;
   }
+  .menu_section_card:hover .menu_section_card_title_long {
+    width: inherit;
+  }
+  .menu_section_card:hover .menu_section_card_subtitle_long {
+    width: inherit;
+  }
   /* Menu Accueil */
   #fonctionnement {
     display: flex;
