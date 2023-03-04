@@ -646,7 +646,10 @@ h3 + span {
 }
 
 .menu_section_card_price {
+  margin-left: 20px;
   font-weight: bold;
+  width: 4%;
+  transition: width ease 0.5s;
 }
 
 .menu_section_card:hover .menu_section_card_price {
