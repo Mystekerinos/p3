@@ -587,13 +587,6 @@ h3 + span {
 }
 
 .menu_section_meal {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: width ease 0.7s;
-}
-
-.menu_section_meal {
   width: calc(100% - 20px);
 }
 
@@ -800,6 +793,12 @@ button:hover svg path {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Menu Restaurant */
+  .menu_section_card:hover .menu_section_card_title_long {
+    width: inherit;
+  }
+  .menu_section_card:hover .menu_section_card_subtitle_long {
+    width: inherit;
+  }
   /* Menu Accueil */
   #fonctionnement {
     display: flex;

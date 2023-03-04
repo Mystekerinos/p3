@@ -107,14 +107,6 @@ h3+span {
   animation-name: slideIn;
 }
 
-.menu_section_meal {
-
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: width ease 0.7s;
-
-}
 
 .menu_section_meal {
 
@@ -395,9 +387,15 @@ button:hover svg path {
 
   /* Menu Restaurant */
 
+  .menu_section_card:hover .menu_section_card_title_long{
+   width:inherit;
+   
+  }
 
-
-
+  .menu_section_card:hover .menu_section_card_subtitle_long{
+    width:inherit;
+    
+   }
 
 
   /* Menu Accueil */
