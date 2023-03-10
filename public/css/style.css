@@ -825,10 +825,10 @@ button:hover svg path {
     margin-bottom: 32px;
     padding-left: 2%;
     padding-right: 2%;
-    gap: 30px;
+    gap: 15px;
   }
   #fonctionnement button {
-    width: calc(33.3333333333% - 46.6666666667px);
+    width: calc(33.3333333333% - 10px);
   }
   #container_restaurants_menu_section_cards {
     background-color: #f3f3f3;
@@ -884,6 +884,10 @@ button:hover svg path {
     margin-bottom: 34px;
     padding-left: 0%;
     padding-right: 0%;
+    gap: 30px;
+  }
+  #fonctionnement button {
+    width: calc(33.3333333333% - 46.6666666667px);
   }
   #container_restaurants_menu_section_cards {
     display: flex;
