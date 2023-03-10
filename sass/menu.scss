@@ -410,8 +410,12 @@ button:hover svg path {
     margin-bottom: 32px;
     padding-left: 2%;
     padding-right: 2%;
+    gap:15px;
   }
 
+#fonctionnement button{
+  width:calc(100% / 3) (30px / 3);
+}
 
 
   #container_restaurants_menu_section_cards {
