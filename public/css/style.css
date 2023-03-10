@@ -883,6 +883,10 @@ button:hover svg path {
     margin-bottom: 34px;
     padding-left: 0%;
     padding-right: 0%;
+    gap:30px;
+  }
+  #fonctionnement button{
+    width:calc( (100% / 3) - (140px / 3));
   }
   #container_restaurants_menu_section_cards {
     display: flex;
