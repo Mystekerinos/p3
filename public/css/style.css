@@ -748,7 +748,7 @@ button {
   border: none;
   padding: 15px;
   border-radius: 20px;
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20px;
   cursor: pointer;
@@ -807,6 +807,7 @@ button:hover svg path {
   top: 26px;
   max-width: 105px;
   overflow-wrap: break-word;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
