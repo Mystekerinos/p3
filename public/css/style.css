@@ -191,11 +191,9 @@
 }
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  max-width: 1400px;
-  padding-right: 50px;
-  padding-left: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width:767px;
+  margin:0 auto;
+
 }
 
 /* Heart */
@@ -224,7 +222,6 @@ body {
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.31);
   border-radius: 23px 23px 23px 23px;
   height: 250px;
-  width: 96%;
   position: relative;
   text-decoration: none;
   color: #000000;
@@ -248,6 +245,11 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  body{
+    max-width:991px;
+    padding:0;
+    margin:0 auto;
+  }
   #container-restaurants-menu_section_cards {
     flex-wrap: wrap;
     flex-direction: inherit;
@@ -257,6 +259,9 @@ body {
   }
 }
 @media screen and (min-width: 992px) {
+  body{
+    max-width:1400px;
+  }
   #container-restaurants-menu_section_cards {
     flex-direction: row;
   }
@@ -741,7 +746,7 @@ button {
   border: none;
   padding: 15px;
   border-radius: 20px;
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20px;
   cursor: pointer;
@@ -800,6 +805,7 @@ button:hover svg path {
   top: 26px;
   max-width: 105px;
   overflow-wrap: break-word;
+  border-radius:5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -817,6 +823,10 @@ button:hover svg path {
     margin-bottom: 32px;
     padding-left: 2%;
     padding-right: 2%;
+    gap:15px;
+  }
+  #fonctionnement button{
+    width:calc( (100% / 3) - (30px / 3));
   }
   #container_restaurants_menu_section_cards {
     background-color: #f3f3f3;
@@ -838,6 +848,7 @@ button:hover svg path {
   }
 }
 @media screen and (min-width: 992px) {
+
   /* Menu Restaurant */
   .menu {
     margin-top: 10px;
