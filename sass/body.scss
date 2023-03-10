@@ -3,6 +3,11 @@
 }
 
 .loading {
+  max-width: 1400px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: -1;
   position: fixed;
   width: 100%;
