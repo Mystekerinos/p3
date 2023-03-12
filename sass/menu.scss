@@ -9,7 +9,6 @@
   min-height: 1300px;
 }
 
-
 .restaurant_title_and_heart {
   display: flex;
   align-items: center;
@@ -31,8 +30,6 @@
   padding-left: 5%;
 }
 
-
-
 .restaurant_background_order {
   display: flex;
   flex-direction: column;
@@ -49,57 +46,45 @@ h3+span {
   width: 40px;
   background: aquamarine;
   margin-top: -10px;
-
 }
-
-
 
 *,
 *::before,
 *::after {
-
   box-sizing: border-box;
-
 }
 
-#menu_section1{
+#menu_section1 {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 53px;
   align-items: center;
-
 }
 
-.menu_offbeat_title{
-  margin-left:42px;
+.menu_offbeat_title {
+  margin-left: 42px;
 }
 
-.menu_offbeat_title_underline{
-  margin-left:42px;
+.menu_offbeat_title_underline {
+  margin-left: 42px;
 }
 
-#menu_section2{
+#menu_section2 {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 53px;
   align-items: center;
-
 }
 
-#menu_section3{
+#menu_section3 {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 53px;
   align-items: center;
-
 }
-
-
-
-
 
 .menu_section_card {
   background-color: white;
@@ -115,11 +100,8 @@ h3+span {
   animation-name: slideIn;
 }
 
-
 .menu_section_meal {
-
   width: calc(100% - 20px);
-
 }
 
 .menu_section_card_title {
@@ -144,12 +126,8 @@ h3+span {
   overflow: hidden;
 }
 
-
-
-.menu_section_card .menu_section_card_title_long{
-    
-  transition:width ease 0.5s;
-
+.menu_section_card .menu_section_card_title_long {
+  transition: width ease 0.5s;
 }
 
 .menu_section_card_description {
@@ -160,43 +138,36 @@ h3+span {
   padding-left: 20px;
 }
 
-.menu_section_card .menu_section_card_subtitle_long{
-    
-  transition:width ease 0.5s;
-
-}
-.menu_section_card:hover .menu_section_card_title_long{
-  width:calc(250px - 90px);
-     text-overflow:ellipsis;
-  overflow:hidden;
-  white-space:nowrap;
-
+.menu_section_card .menu_section_card_subtitle_long {
+  transition: width ease 0.5s;
 }
 
-.menu_section_card:hover .menu_section_card_subtitle_long{
-  width:calc(250px - 90px);
-     text-overflow:ellipsis;
-  overflow:hidden;
-  white-space:nowrap;
+.menu_section_card:hover .menu_section_card_title_long {
+  width: calc(250px - 90px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
+.menu_section_card:hover .menu_section_card_subtitle_long {
+  width: calc(250px - 90px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .menu_section_card_price {
-    margin-left: 20px;
-    font-weight: bold;
-    width:4%;
-    transition:width ease 0.5s;
+  margin-left: 20px;
+  font-weight: bold;
+  width: 4%;
+  transition: width ease 0.5s;
+}
 
-    
-  }
-
-  
-  .menu_section_card:hover .menu_section_card_price {
-    width:calc(190px - 100px);
-  }
+.menu_section_card:hover .menu_section_card_price {
+  width: calc(190px - 100px);
+}
 
 .menu_section_card_svg {
-
   position: absolute;
   top: 0;
   right: 0;
@@ -211,28 +182,19 @@ h3+span {
 }
 
 .menu_section_card:hover .menu_section_card_svg {
-
   width: 75px;
-
 }
 
-
 .menu_section_card_svg svg {
-
   width: 25px;
   height: 25px;
   display: inline-block;
-  transition: transform  ease 0.5s;
-
+  transition: transform ease 0.5s;
 }
 
 .menu_section_card:hover svg {
-
   transform: rotate(360deg);
-
 }
-
-
 
 .menu_order {
   display: flex;
@@ -242,7 +204,7 @@ h3+span {
 .menu_order_word {
   display: flex;
   border-radius: 85px;
-  border: 2px solid #D3D3D3;
+  border: 2px solid #d3d3d3;
   justify-content: center;
   box-shadow: 1px 1px 1px 1px;
   min-height: 50px;
@@ -251,7 +213,7 @@ h3+span {
   color: white;
   padding-left: 50px;
   padding-right: 50px;
-  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  background: linear-gradient(to bottom, #ff79da, #9356dc);
   border: none;
   outline: none;
   filter: brightness(0.9);
@@ -265,15 +227,10 @@ h3+span {
 
 /* Menu accueil */
 
-
 .homepage_subtitle {
   margin-left: 23px;
   font-size: 23px;
 }
-
-
-
-
 
 #fonctionnement {
   display: inherit;
@@ -282,21 +239,9 @@ h3+span {
   padding-right: 5%;
 }
 
-
-
-
-
-
-
-
-
 * {
-
   box-sizing: border-box;
-
 }
-
-
 
 button {
   display: block;
@@ -312,15 +257,12 @@ button {
 }
 
 button svg {
-
   display: inline-block;
   width: 18px;
   height: 18px;
   vertical-align: middle;
   margin-right: 10px;
-
 }
-
 
 button span:last-child {
   display: inline-block;
@@ -335,28 +277,15 @@ button span:last-child {
   top: 50%;
   left: 0;
   transform: translate3d(-50%, -50%, 0);
-
 }
 
 button:hover {
-
   background: #f3e5f5;
-
 }
 
 button:hover svg path {
-
   fill: #6a1b9a;
-
 }
-
-
-
-
-
-
-
-
 
 #container_restaurants_menu_section_cards {
   background-color: #f3f3f3;
@@ -367,10 +296,6 @@ button:hover svg path {
   padding-bottom: 3px;
   min-height: 1250px;
 }
-
-
-
-
 
 .restaurant_new {
   background-color: rgb(77, 220, 167);
@@ -385,30 +310,16 @@ button:hover svg path {
   border-radius: 5px;
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-
   /* Menu Restaurant */
 
-  .menu_section_card:hover .menu_section_card_title_long{
-   width:inherit;
-   
+  .menu_section_card:hover .menu_section_card_title_long {
+    width: inherit;
   }
 
-  .menu_section_card:hover .menu_section_card_subtitle_long{
-    width:inherit;
-    
-   }
-
+  .menu_section_card:hover .menu_section_card_subtitle_long {
+    width: inherit;
+  }
 
   /* Menu Accueil */
 
@@ -418,16 +329,12 @@ button:hover svg path {
     margin-bottom: 32px;
     padding-left: 2%;
     padding-right: 2%;
-    gap:15px;
+    gap: 15px;
   }
-
 
   #fonctionnement button {
-    width:calc((100% /3) - (30px /3));
+    width: calc((100% / 3) - (30px / 3));
   }
-
-
-
 
   #container_restaurants_menu_section_cards {
     background-color: #f3f3f3;
@@ -451,12 +358,8 @@ button:hover svg path {
   }
 }
 
-
 @media screen and (min-width: 992px) {
-
   /* Menu Restaurant */
-
-
 
   .menu {
     margin-top: 10px;
@@ -482,19 +385,15 @@ button:hover svg path {
     align-items: center;
   }
 
+  .menu_section_card:hover .menu_section_card_title_long {
+    width: inherit;
+  }
 
-  .menu_section_card:hover .menu_section_card_title_long{
-    width:inherit;
-    
-   }
- 
-   .menu_section_card:hover .menu_section_card_subtitle_long{
-     width:inherit;
-     
-    }
+  .menu_section_card:hover .menu_section_card_subtitle_long {
+    width: inherit;
+  }
 
   /* Menu Accueil */
-
 
   #fonctionnement {
     display: flex;
@@ -502,19 +401,12 @@ button:hover svg path {
     margin-bottom: 34px;
     padding-left: 0%;
     padding-right: 0%;
-    gap:30px;
+    gap: 30px;
   }
 
-  #fonctionnement button{
-    width:calc((100% / 3) - (140px / 3));
+  #fonctionnement button {
+    width: calc((100% / 3) - (140px / 3));
   }
-
-
-
-
-
-
-
 
   #container_restaurants_menu_section_cards {
     display: flex;
@@ -535,8 +427,6 @@ button:hover svg path {
     margin-right: 1%;
   }
 
-
-
   .restaurant_new {
     right: 10px;
     top: 24px;
@@ -545,6 +435,4 @@ button:hover svg path {
     margin-left: 0px;
     padding: 1%;
   }
-
-
 }
