@@ -3,8 +3,7 @@
 
 Formation Développeur d'application - JavaScript React
 
-# p3
-ohMyFood
+# p3 : ohMyFood
 
 Le troisième projet du parcours "Développeur web" sur OpenClassroom consiste à intégrer une page web et à l'enrichir avec des animations CSS, en utilisant le préprocesseur Sass.
 
